@@ -1,0 +1,13 @@
+---
+title: "cristinajacks0n.github.io"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+#this is the landing page of the wesbite, what users will first see when they click on my link.
+#do not change the name of this file
+
+```
