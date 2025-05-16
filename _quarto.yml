@@ -1,19 +1,24 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "cristinajacks0n.github.io"
+  title: "Cristina Jackson"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - education.qmd
+      - projects.qmd
+      - hobbies.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
