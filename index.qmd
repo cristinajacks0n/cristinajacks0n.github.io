@@ -1,13 +1,27 @@
 ---
-title: "cristinajacks0n.github.io"
+format:
+  html:
+    theme: yeti
+    page-layout: full
+
+profile:
+  name: Cristina Jackson
+  image: ~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_6368.jpeg
+  image-shape: rectangle
+  image-width: 17em
+  image-title: Cristina Jackson
+
+  links:
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/cristina-jackson-244926211/
+  - icon: envelope
+    text: Email
+    href: mailto:cjackson@ucsb.edu
 ---
 
-This is a Quarto website.
+Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. I am from San Francisco and have so much love for my home, California. I love learning and have been really passionate about learning how to code and building this website! I love building and creating things—whether it’s a well-run event, a tight-knit team, or a killer spreadsheet and data plot! When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and have a great appreciation for nature and the world around me. I have coached at the Chautauqua sailing center for the past few summers and work at a doctors office in Santa Barbara. I have administration experience having worked at the St. Francis Yacht Club helping run races in the San Francisco Bay.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-#this is the landing page of the wesbite, what users will first see when they click on my link.
-#do not change the name of this file
-
-```
+  

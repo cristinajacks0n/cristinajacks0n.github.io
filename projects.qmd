@@ -1,0 +1,9 @@
+---
+title: "Projects"
+---
+
+## Datahackathon
+Research project on Medicare in California 
+
+## Econ 194S
+Research on education differences in California

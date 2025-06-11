@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Cristina Jackson"
+  title: "cristinajacks0n.github.io"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - education.qmd
       - projects.qmd
-      - hobbies.qmd
+      - interests.qmd
+      - resume.qmd
 
 format:
   html:
