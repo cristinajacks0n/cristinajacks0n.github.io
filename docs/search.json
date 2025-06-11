@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "cristinajacks0n.github.io",
-    "section": "",
-    "text": "Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. I am from San Francisco and have so much love for my home, California. I love learning and have been really passionate about learning how to code and building this website! I love building and creating things—whether it’s a well-run event, a tight-knit team, or a killer spreadsheet and data plot! When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and have a great appreciation for nature and the world around me. I have coached at the Chautauqua sailing center for the past few summers and work at a doctors office in Santa Barbara. I have administration experience having worked at the St. Francis Yacht Club helping run races in the San Francisco Bay."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "cristinajacks0n.github.io",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
     "objectID": "interests.html",
     "href": "interests.html",
     "title": "Interests",
@@ -40,6 +19,27 @@
     "title": "Interests",
     "section": "Sailing",
     "text": "Sailing\nI sail for the UCSB Sailing Team."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "cristinajacks0n.github.io",
+    "section": "",
+    "text": "Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. I am from San Francisco and have so much love for my home, California. I love learning and have been really passionate about learning how to code and building this website! I love building and creating things—whether it’s a well-run event, a tight-knit team, or a killer spreadsheet and data plot! When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and have a great appreciation for nature and the world around me. I have coached at the Chautauqua sailing center for the past few summers and work at a doctors office in Santa Barbara. I have administration experience having worked at the St. Francis Yacht Club helping run races in the San Francisco Bay."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "cristinajacks0n.github.io",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Here is my resume"
   },
   {
     "objectID": "projects.html",
@@ -63,10 +63,10 @@
     "text": "Econ 194S\nResearch on education differences in California"
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Here is my resume"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
