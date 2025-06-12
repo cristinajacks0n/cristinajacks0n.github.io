@@ -11,21 +11,21 @@
     "href": "interests.html#running",
     "title": "Interests",
     "section": "Running",
-    "text": "Running\nI love to run and post my runs on Strava. I started running freshman year, when I found the trails in the Goleta Monarch Preserve. From there, I challenged myself to run in the mornings and sophmore year, I ran the Santa Barbara Half Marathon. From then, I have been consistently running as a way to start my day right! I also really enjoy the friends I have been able to make through running."
+    "text": "Running\nI love to run and post my runs on Strava. I started running freshman year, when I found the trails in the Goleta Monarch Preserve. From there, I challenged myself to run in the mornings and sophmore year, I ran the Santa Barbara Half Marathon. From then, I have been consistently running as a way to start my day right! I also really enjoy the friends I have been able to make through running.\n\n\n\nRunning with my friend Mia in the Monarch Butterfly Preserve"
   },
   {
     "objectID": "interests.html#sailing",
     "href": "interests.html#sailing",
     "title": "Interests",
     "section": "Sailing",
-    "text": "Sailing\n I sail for the UCSB Sailing Team. I started sailing when I was 8 years old and have been doing it ever since. One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it."
+    "text": "Sailing\nI sail for the UCSB Sailing Team. I started sailing when I was 8 years old and have been doing it ever since. One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.\n\n\n\nSailing a C-Scow in Chautauqua Lake, NY"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "cristinajacks0n.github.io",
     "section": "",
-    "text": "Bio\nHi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. Over this past quarter, I have been learning how to code with R. I have really enjoyed learning. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and one of my favorite things about Santa Barbara is how amazing the geography is, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers and I also currently work in administration at a doctors office in Santa Barbara."
+    "text": "Sunset walk to Devs Beach in Isla Vista\nHi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. Over this past quarter, I have been learning how to code with R. I have really enjoyed learning. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and one of my favorite things about Santa Barbara is how amazing the geography is, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers and I also currently work in administration at a doctors office in Santa Barbara."
   },
   {
     "objectID": "index.html#education",
@@ -46,14 +46,14 @@
     "href": "aboutme.html",
     "title": "About Me",
     "section": "",
-    "text": "Bio\n\n\n\n\n\nBio\n\n\n\n\n\nBio\n\n\n\n\n\nBio"
+    "text": "A little about me, I love to travel and take photos of cool nature. Here are some of my favorite photos that I have taken.\n\n\n\nSunset in Laguna Beach\n\n\n\n\n\nRocks in Joshua Tree National Park\n\n\nI have two dogs, Ollie and Buster. They are the cutest. Ollie, I like to take on long runs on the beach. Buster loves to go on a walk to Starbucks with me and get a pup cup.\n\n\n\nOllie\n\n\n\n\n\nBuster\n\n\n\n\n\nOllie and his friend Bodie and my friend Mia!"
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Here is my resume"
+    "text": "My CV"
   },
   {
     "objectID": "projects.html",
@@ -82,5 +82,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "interests.html#interactive-figure",
+    "href": "interests.html#interactive-figure",
+    "title": "Interests",
+    "section": "Interactive Figure",
+    "text": "Interactive Figure"
+  },
+  {
+    "objectID": "interests.html#day-in-the-life-sailing-in-santa-barbara",
+    "href": "interests.html#day-in-the-life-sailing-in-santa-barbara",
+    "title": "Interests",
+    "section": "Day in the life Sailing in Santa Barbara",
+    "text": "Day in the life Sailing in Santa Barbara\nHere is a map that shows where the team is on a typical day of practice. Click on each label to learn more about the team’s practice locations."
   }
 ]

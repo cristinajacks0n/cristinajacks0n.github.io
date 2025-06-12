@@ -2,10 +2,21 @@
 title: "About Me"
 ---
 
-![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/docs/IMG_1813.jpeg)
+A little about me, I love to travel and take photos of cool nature. Here are some of my favorite photos that I have taken.
 
-![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/docs/IMG_2010.jpeg)
+![Sunset in Laguna Beach](docs/IMG_1813.jpg)
 
-![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_.jpeg)
+![Rocks in Joshua Tree National Park](docs/IMG_2010.jpg)
 
-![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_6368.jpeg)
+I have two dogs, Ollie and Buster. They are the cutest. Ollie, I like to take on long runs on the beach. Buster loves to go on a walk to Starbucks with me and get a pup cup.
+
+![Ollie](docs/IMG_2671.jpg)
+
+
+![Buster](docs/IMG_5019.jpg)
+
+
+![Ollie and his friend Bodie and my friend Mia!](docs/IMG_0039.jpg)
+
+
+

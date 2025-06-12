@@ -9,7 +9,7 @@ In my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked wi
 
 ### Financial Pressure Across Medi-Cal Healthcare Plans
 
-<iframe src="static/medicare_in_california_datahack_presentation.pdf" width="100%" height="600px"></iframe>
+<iframe src="medicare_in_california_datahack_presentation.pdf" width="100%" height="600px"></iframe>
 
 ## Economics 194S: Group Studies
 In my Econ 194S course with Professor Bree Lang, I conducted research on the differences in education across California. This project involved analyzing data on educational attainment, income levels, and other socioeconomic factors to understand how these variables interact and affect educational outcomes. I used R to analyze the data and create visualizations to support my findings. This course taught me to identify and evaluate different empirical research methods in economics, develop a research proposal, apply R programming skills to analyze and visualize results, and to ceate professional research documents using Quarto.

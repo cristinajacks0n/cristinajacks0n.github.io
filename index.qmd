@@ -6,7 +6,6 @@ format:
 
 profile:
   name: Cristina Jackson
-  image: ~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_6368.jpeg
   image-shape: rectangle
   image-width: 17em
   image-title: Cristina Jackson
@@ -20,7 +19,9 @@ profile:
     href: mailto:cjackson@ucsb.edu
 ---
 
-![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_6368.jpeg)
+## 
+
+![Sunset walk to Devs Beach in Isla Vista](docs/IMG_6368.jpg)
 
 Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. Over this past quarter, I have been learning how to code with R. I have really enjoyed learning. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and one of my favorite things about Santa Barbara is how amazing the geography is, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers and I also currently work in administration at a doctors office in Santa Barbara.
 
