@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-This quarter at UCSB, I have been working on a few projects that I am excited to share! These projects have allowed me to apply the skills I have learned in R and have given me a chance to explore my interests in economics and environmental studies. 
+This quarter at UCSB, I have decided to really focus on learning R, by taking 3 courses that involve using R! I have worked on a few projects this quarter that I am excited to share. These projects have allowed me to apply the skills I have learned in R and have given me a chance to explore my interests in economics and environmental studies. 
 
 ## Economics 199RA: DataHack
 In my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked with a team to analyze data on Medicare in California. This project involved cleaning and analyzing large datasets, visualizing our findings, and presenting our results to the class. Our task was to provide evidence for the following question: What issue should be prioritized by California’s policy makers and why?

@@ -19,7 +19,7 @@ profile:
     href: mailto:cjackson@ucsb.edu
 ---
 
-## 
+## Home Page
 
 ![Sunset walk to Devs Beach in Isla Vista](docs/IMG_6368.jpg)
 
@@ -27,9 +27,6 @@ Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying
 
 ## Education
 
-**Bachelor of Arts in Economics and Environmental Studies**  
-University of California, Santa Barbara (Expected Graduation: June 2024)
-  
-## Skills
-- R Programming (yes!)
+**Bachelor of Arts (BA) in Economics and Environmental Studies**  
+University of California, Santa Barbara (Expected Graduation: June 2026)
 

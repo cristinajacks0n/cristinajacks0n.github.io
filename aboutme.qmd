@@ -2,11 +2,16 @@
 title: "About Me"
 ---
 
+
+## Photography
 A little about me, I love to travel and take photos of cool nature. Here are some of my favorite photos that I have taken.
 
 ![Sunset in Laguna Beach](docs/IMG_1813.jpg)
 
 ![Rocks in Joshua Tree National Park](docs/IMG_2010.jpg)
+
+
+## Pets
 
 I have two dogs, Ollie and Buster. They are the cutest. Ollie, I like to take on long runs on the beach. Buster loves to go on a walk to Starbucks with me and get a pup cup.
 
