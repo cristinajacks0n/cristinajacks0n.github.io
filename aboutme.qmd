@@ -4,7 +4,7 @@ title: "About Me"
 
 
 ## Photography
-A little about me, I love to travel and take photos of cool nature. Here are some of my favorite photos that I have taken.
+I love to travel, explore new places, and take cool pictures of nature. This year, I went to Laguna Beach with my sister and mom and saw the most amazing sunset. I also went to Joshua Tree for the first time, and thought the rock formations were very unique. Here are some photos from my adventures.
 
 ![Sunset in Laguna Beach](docs/IMG_1813.jpg)
 
