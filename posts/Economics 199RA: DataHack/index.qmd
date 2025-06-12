@@ -3,7 +3,6 @@ title: "Economics 199RA: DataHack"
 description: "DataHack course with Camilo Abbate Granada and Jonah Danziger"
 author:
   - name: Cristina
-    url: https://cristinajacks0n.github.io/
 image: datahack.png
 categories: [R] # self-defined categories
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
