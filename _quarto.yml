@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - projects.qmd
-      - interests.qmd
+      - sailing.qmd
       - aboutme.qmd
       - resume.qmd
 

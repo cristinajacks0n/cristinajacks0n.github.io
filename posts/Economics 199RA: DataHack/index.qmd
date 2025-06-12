@@ -1,0 +1,18 @@
+---
+title: "Economics 199RA: DataHack"
+description: "DataHack course with Camilo Abbate Granada and Jonah Danziger"
+author:
+  - name: Cristina
+    url: https://cristinajacks0n.github.io/
+image: datahack.png
+categories: [R] # self-defined categories
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+
+## Economics 199RA: DataHack
+In my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked with a team to analyze data on Medicare in California. This project involved cleaning and analyzing large datasets, visualizing our findings, and presenting our results to the class. Our task was to provide evidence for the following question: What issue should be prioritized by California’s policy makers and why?
+
+### Financial Pressure Across Medi-Cal Healthcare Plans
+
+<iframe src="medicare_in_california_datahack_presentation.pdf" width="100%" height="600px"></iframe>
