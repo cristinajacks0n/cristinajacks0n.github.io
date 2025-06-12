@@ -1,0 +1,11 @@
+---
+title: "About Me"
+---
+
+![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/docs/IMG_1813.jpeg)
+
+![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/docs/IMG_2010.jpeg)
+
+![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_.jpeg)
+
+![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_6368.jpeg)

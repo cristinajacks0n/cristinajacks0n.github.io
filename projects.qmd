@@ -2,8 +2,18 @@
 title: "Projects"
 ---
 
-## Datahackathon
-Research project on Medicare in California 
+This quarter at UCSB, I have been working on a few projects that I am excited to share! These projects have allowed me to apply the skills I have learned in R and have given me a chance to explore my interests in economics and environmental studies. 
 
-## Econ 194S
-Research on education differences in California
+## Economics 199RA: DataHack
+In my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked with a team to analyze data on Medicare in California. This project involved cleaning and analyzing large datasets, visualizing our findings, and presenting our results to the class. Our task was to provide evidence for the following question: What issue should be prioritized by California’s policy makers and why?
+
+### Financial Pressure Across Medi-Cal Healthcare Plans
+
+<iframe src="static/medicare_in_california_datahack_presentation.pdf" width="100%" height="600px"></iframe>
+
+## Economics 194S: Group Studies
+In my Econ 194S course with Professor Bree Lang, I conducted research on the differences in education across California. This project involved analyzing data on educational attainment, income levels, and other socioeconomic factors to understand how these variables interact and affect educational outcomes. I used R to analyze the data and create visualizations to support my findings. This course taught me to identify and evaluate different empirical research methods in economics, develop a research proposal, apply R programming skills to analyze and visualize results, and to ceate professional research documents using Quarto.
+
+### The Effect of Free Child Care on New Mexico Families
+
+<iframe src="final_presentation_194S.pdf" width="100%" height="600px"></iframe>

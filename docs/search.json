@@ -11,28 +11,42 @@
     "href": "interests.html#running",
     "title": "Interests",
     "section": "Running",
-    "text": "Running\nI love to run and post my runs on Strava."
+    "text": "Running\nI love to run and post my runs on Strava. I started running freshman year, when I found the trails in the Goleta Monarch Preserve. From there, I challenged myself to run in the mornings and sophmore year, I ran the Santa Barbara Half Marathon. From then, I have been consistently running as a way to start my day right! I also really enjoy the friends I have been able to make through running."
   },
   {
     "objectID": "interests.html#sailing",
     "href": "interests.html#sailing",
     "title": "Interests",
     "section": "Sailing",
-    "text": "Sailing\nI sail for the UCSB Sailing Team."
+    "text": "Sailing\n I sail for the UCSB Sailing Team. I started sailing when I was 8 years old and have been doing it ever since. One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "cristinajacks0n.github.io",
     "section": "",
-    "text": "Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. I am from San Francisco and have so much love for my home, California. I love learning and have been really passionate about learning how to code and building this website! I love building and creating things—whether it’s a well-run event, a tight-knit team, or a killer spreadsheet and data plot! When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and have a great appreciation for nature and the world around me. I have coached at the Chautauqua sailing center for the past few summers and work at a doctors office in Santa Barbara. I have administration experience having worked at the St. Francis Yacht Club helping run races in the San Francisco Bay."
+    "text": "Bio\nHi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. Over this past quarter, I have been learning how to code with R. I have really enjoyed learning. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and one of my favorite things about Santa Barbara is how amazing the geography is, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers and I also currently work in administration at a doctors office in Santa Barbara."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "cristinajacks0n.github.io",
     "section": "Education",
-    "text": "Education"
+    "text": "Education\nBachelor of Arts in Economics and Environmental Studies\nUniversity of California, Santa Barbara (Expected Graduation: June 2024)"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "cristinajacks0n.github.io",
+    "section": "Skills",
+    "text": "Skills\n\nR Programming (yes!)"
+  },
+  {
+    "objectID": "aboutme.html",
+    "href": "aboutme.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Bio\n\n\n\n\n\nBio\n\n\n\n\n\nBio\n\n\n\n\n\nBio"
   },
   {
     "objectID": "resume.html",
@@ -46,21 +60,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Research project on Medicare in California"
+    "text": "This quarter at UCSB, I have been working on a few projects that I am excited to share! These projects have allowed me to apply the skills I have learned in R and have given me a chance to explore my interests in economics and environmental studies."
   },
   {
-    "objectID": "projects.html#datahackathon",
-    "href": "projects.html#datahackathon",
+    "objectID": "projects.html#economics-199ra-datahack",
+    "href": "projects.html#economics-199ra-datahack",
     "title": "Projects",
-    "section": "",
-    "text": "Research project on Medicare in California"
+    "section": "Economics 199RA: DataHack",
+    "text": "Economics 199RA: DataHack\nIn my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked with a team to analyze data on Medicare in California. This project involved cleaning and analyzing large datasets, visualizing our findings, and presenting our results to the class. Our task was to provide evidence for the following question: What issue should be prioritized by California’s policy makers and why?\n\nFinancial Pressure Across Medi-Cal Healthcare Plans"
   },
   {
-    "objectID": "projects.html#econ-194s",
-    "href": "projects.html#econ-194s",
+    "objectID": "projects.html#economics-194s-group-studies",
+    "href": "projects.html#economics-194s-group-studies",
     "title": "Projects",
-    "section": "Econ 194S",
-    "text": "Econ 194S\nResearch on education differences in California"
+    "section": "Economics 194S: Group Studies",
+    "text": "Economics 194S: Group Studies\nIn my Econ 194S course with Professor Bree Lang, I conducted research on the differences in education across California. This project involved analyzing data on educational attainment, income levels, and other socioeconomic factors to understand how these variables interact and affect educational outcomes. I used R to analyze the data and create visualizations to support my findings. This course taught me to identify and evaluate different empirical research methods in economics, develop a research proposal, apply R programming skills to analyze and visualize results, and to ceate professional research documents using Quarto.\n\nThe Effect of Free Child Care on New Mexico Families"
   },
   {
     "objectID": "about.html",

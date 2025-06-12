@@ -20,9 +20,15 @@ profile:
     href: mailto:cjackson@ucsb.edu
 ---
 
-Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. I am from San Francisco and have so much love for my home, California. I love learning and have been really passionate about learning how to code and building this website! I love building and creating things—whether it’s a well-run event, a tight-knit team, or a killer spreadsheet and data plot! When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and have a great appreciation for nature and the world around me. I have coached at the Chautauqua sailing center for the past few summers and work at a doctors office in Santa Barbara. I have administration experience having worked at the St. Francis Yacht Club helping run races in the San Francisco Bay.
+![Bio](~/Desktop/ENVS-193DS/cristinajacks0n.github.io/IMG_6368.jpeg)
+
+Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. Over this past quarter, I have been learning how to code with R. I have really enjoyed learning. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and one of my favorite things about Santa Barbara is how amazing the geography is, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers and I also currently work in administration at a doctors office in Santa Barbara.
 
 ## Education
 
+**Bachelor of Arts in Economics and Environmental Studies**  
+University of California, Santa Barbara (Expected Graduation: June 2024)
   
+## Skills
+- R Programming (yes!)
 
