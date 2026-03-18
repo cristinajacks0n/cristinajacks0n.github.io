@@ -8,10 +8,12 @@ categories: [R] # self-defined categories
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-
 ## Economics 194S: Group Studies
+
 In my Econ 194S course with Professor Bree Lang, I conducted research on the differences in education across California. This project involved analyzing data on educational attainment, income levels, and other socioeconomic factors to understand how these variables interact and affect educational outcomes. I used R to analyze the data and create visualizations to support my findings. This course taught me to identify and evaluate different empirical research methods in economics, develop a research proposal, apply R programming skills to analyze and visualize results, and to ceate professional research documents using Quarto.
 
 ### The Effect of Free Child Care on New Mexico Families
 
-<iframe src="final_presentation_194S.pdf" width="100%" height="600px"></iframe>
+<iframe src="final_presentation_194S.pdf" width="100%" height="600px">
+
+</iframe>

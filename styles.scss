@@ -1,0 +1,71 @@
+/*-- scss:defaults --*/
+
+/*-- fonts --*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+/*-- base variables --*/
+$body-bg: #f7f5f1;
+$body-color: #1a1916;
+$font-family-sans-serif: 'DM Sans', sans-serif;
+$headings-font-family: 'Cormorant Garamond', Georgia, serif;
+$navbar-bg: #f7f5f1;
+$navbar-fg: #1a1916;
+$navbar-hl: #2d4a3e;
+$link-color: #2d4a3e;
+
+/*-- global --*/
+body {
+  background-color: #f7f5f1;
+  color: #1a1916;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #1a1916;
+}
+
+/*-- navbar --*/
+.navbar {
+  border-bottom: 1px solid rgba(26,25,22,0.1);
+  padding: 20px 48px;
+}
+.navbar-brand {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+.nav-link {
+  font-size: 12px !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b6960 !important;
+}
+.nav-link:hover {
+  color: #1a1916 !important;
+}
+
+/*-- page --*/
+.page-layout-full .content {
+  padding: 0;
+}
+
+/*-- links --*/
+a {
+  color: #2d4a3e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*-- code blocks (for finance pages later) --*/
+pre, code {
+  background: #ede9e3;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+}

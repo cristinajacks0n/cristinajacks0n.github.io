@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.35">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>finance – Cristina Jackson</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-590a3a15e06675dd04e50b92b0c5fff6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Cristina Jackson</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sailing.html"> 
+<span class="menu-text">Hobbies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./aboutme.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./finance.html" aria-current="page"> 
+<span class="menu-text">Finance</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./resume.html"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/cristinajacks0n"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f7f5f1;--bg-w:#faf9f7;
+  --brd:rgba(26,25,22,0.10);--brd-m:rgba(26,25,22,0.18);
+  --t1:#1a1916;--t2:#6b6960;--t3:#a8a59e;
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:'Jost',system-ui,sans-serif;
+  --ba:#1e3a5f;--bb:#eef3f9;
+  --ra:#5c1a1a;--rb:#faf0f0;
+  --ca:#6b4400;--cb:#fdf6ea;
+  --ga:#1a3d2b;--gb:#eef6f2;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);font-weight:300;color:var(--t1);background:var(--bg);line-height:1.7;font-size:15px}
+
+/* HERO */
+.hero{display:grid;grid-template-columns:1fr 2fr;border-bottom:1px solid var(--brd)}
+.hl{padding:64px 48px;border-right:1px solid var(--brd);display:flex;flex-direction:column;justify-content:space-between;gap:48px}
+.hr{padding:64px 64px;display:flex;flex-direction:column;justify-content:space-between;gap:28px}
+.ey{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--t3);margin-bottom:14px;font-weight:400}
+.ht{font-family:var(--serif);font-size:58px;font-weight:400;line-height:1.0;letter-spacing:-.01em;color:var(--t1)}
+.hm{display:flex;gap:40px;flex-wrap:wrap}
+.mn{font-family:var(--serif);font-size:30px;font-weight:400;color:var(--t1);line-height:1.2;margin-bottom:8px}
+.ml{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);margin-top:5px;font-weight:400}
+.hd{font-size:15px;color:var(--t2);font-weight:300;line-height:1.85;max-width:540px}
+.hn{display:flex;flex-wrap:wrap;gap:1px;background:var(--brd);border:1px solid var(--brd)}
+.hn a{flex:1;min-width:90px;background:var(--bg);padding:13px 16px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);text-decoration:none;transition:color .15s,background .15s;text-align:center;font-weight:400}
+.hn a:hover{background:var(--bg-w);color:var(--t1)}
+
+/* SECTION */
+.sw{border-bottom:1px solid var(--brd)}
+.sh{display:grid;grid-template-columns:1fr 2fr;border-bottom:1px solid var(--brd)}
+.slc{padding:40px 48px;border-right:1px solid var(--brd)}
+.sdc{padding:40px 56px;display:flex;flex-direction:column;justify-content:center}
+.sn{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--t3);margin-bottom:10px;font-weight:400}
+.st{font-family:var(--serif);font-size:36px;font-weight:400;color:var(--t1);line-height:1.1}
+.sp{font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-top:12px;display:inline-block;padding:4px 12px;font-weight:400}
+.pb{background:var(--bb);color:var(--ba)}.pr{background:var(--rb);color:var(--ra)}.pc{background:var(--cb);color:var(--ca)}.pg{background:var(--gb);color:var(--ga)}
+.sb{padding:40px 48px}
+
+/* SECTION INTRO DESCRIPTION — larger font for case intro paragraphs */
+.sdc p { font-size:16px; color:var(--t2); font-weight:300; line-height:1.85; }
+
+/* PROSE — consistent style for all user-written body text */
+.prose { font-size:15px; color:var(--t2); font-weight:300; line-height:1.85; margin:20px 0; }
+.prose p { font-size:15px; color:var(--t2); font-weight:300; line-height:1.85; margin-bottom:1rem; }
+.prose p:last-child { margin-bottom:0; }
+
+/* PHOTO */
+.ps{width:100%;min-height:190px;border:1px dashed var(--brd-m);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:var(--bg-w);margin:28px 0;color:var(--t3);position:relative;cursor:pointer}
+.ps input[type=file]{position:absolute;opacity:0;width:100%;height:100%;cursor:pointer}
+.psl{font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:400}
+.psh{font-size:12px;color:var(--t3);font-weight:300}
+
+/* COMMENTARY — user text blocks */
+.cm{border-left:2px solid var(--brd-m);padding:20px 24px;margin:24px 0;background:var(--bg-w)}
+.cml{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);margin-bottom:10px;font-weight:400}
+.cm p{font-size:15px;color:var(--t2);font-weight:300;line-height:1.85;margin-bottom:1rem}
+.cm p:last-child{margin-bottom:0}
+.cm-b{border-color:rgba(30,58,95,.4)}.cm-r{border-color:rgba(92,26,26,.4)}.cm-c{border-color:rgba(107,68,0,.4)}.cm-g{border-color:rgba(26,61,43,.4)}
+
+/* TABLES */
+.at{width:100%;border-collapse:collapse;font-size:12px;margin:20px 0}
+.at thead th{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);font-weight:400;padding:8px 12px;text-align:left;border-bottom:1px solid var(--brd)}
+.at td{padding:9px 12px;border-bottom:1px solid rgba(26,25,22,.04);color:var(--t2);font-weight:300;text-align:left;vertical-align:top}
+.at td:first-child{color:var(--t1);font-weight:400;white-space:nowrap}
+.at td:nth-child(2){font-family:var(--serif);font-size:15px}
+.vu{color:#7a2020}.vd{color:#1a3d2b}
+.bc{font-size:10px;padding:2px 7px;letter-spacing:.04em;margin-left:6px}
+.bu{background:#fdeaea;color:#7a2020}.bd{background:#eef6f2;color:#1a3d2b}.bs{background:#f0eeea;color:#a8a59e}
+
+/* RESULT STRIP */
+.rs{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;border:1px solid var(--brd);margin:28px 0}
+.rc{padding:24px 28px;background:var(--bg)}
+.rc.ab{background:var(--bb)}.rc.ar{background:var(--rb)}.rc.ac{background:var(--cb)}.rc.ag{background:var(--gb)}
+.rl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);margin-bottom:6px;font-weight:400}
+.rv{font-family:var(--serif);font-size:36px;font-weight:400;line-height:1}
+.vb{color:var(--ba)}.vr{color:var(--ra)}.vc{color:var(--ca)}.vg{color:var(--ga)}
+.rsub{font-size:11px;color:var(--t3);margin-top:6px;font-weight:300}
+
+/* BULL SLIDER */
+.slp{border:1px solid rgba(26,61,43,.2);background:var(--gb);padding:32px 36px;margin:24px 0}
+.slp h3{font-family:var(--serif);font-size:24px;font-weight:400;color:var(--ga);margin-bottom:20px}
+.slr{display:grid;grid-template-columns:180px 1fr 60px;align-items:center;gap:16px;margin-bottom:16px}
+.slr label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);font-weight:400}
+input[type=range]{accent-color:var(--ga);cursor:pointer;width:100%}
+.sv{font-family:var(--serif);font-size:24px;color:var(--ga);text-align:right}
+.blg{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(26,61,43,.15);border:1px solid rgba(26,61,43,.15);margin-top:20px}
+.blc{background:var(--bg-w);padding:20px 24px}
+.bln{font-size:12px;color:var(--t3);font-weight:300;margin-top:14px;padding-top:14px;border-top:1px solid rgba(26,61,43,.15)}
+
+/* FCF TABLE */
+.ft{width:100%;border-collapse:collapse;font-size:12px;margin:20px 0}
+.ft th{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);font-weight:400;padding:8px 12px;text-align:right;border-bottom:1px solid var(--brd)}
+.ft th:first-child{text-align:left}
+.ft td{padding:9px 12px;border-bottom:1px solid rgba(26,25,22,.04);text-align:right;color:var(--t2);font-weight:300;font-family:var(--serif);font-size:14px}
+.ft td:first-child{text-align:left;font-family:var(--sans);font-size:12px;color:var(--t1);font-weight:400}
+.ft tr.sub td{background:var(--cb);font-weight:400;color:var(--t1)}
+
+/* COMPARE */
+.cpw{border-bottom:1px solid var(--brd);background:var(--t1)}
+.cpi{padding:56px 48px}
+.cpt{font-family:var(--serif);font-size:44px;font-weight:400;color:white;margin-bottom:6px}
+.cps{font-size:13px;color:rgba(255,255,255,.4);margin-bottom:32px;font-weight:300}
+.ct{width:100%;border-collapse:collapse;font-size:12px}
+.ct th{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.35);font-weight:400;padding:10px 14px;text-align:left;border-bottom:1px solid rgba(255,255,255,.1)}
+.ct td{padding:12px 14px;border-bottom:1px solid rgba(255,255,255,.06);color:rgba(255,255,255,.6);font-weight:300}
+.ct td:first-child{color:white;font-weight:400}
+.ct td.mv{font-family:var(--serif);font-size:16px;color:rgba(255,255,255,.85)}
+.ct tr.wt td{background:rgba(255,255,255,.04);font-weight:400;color:white;border-top:1px solid rgba(255,255,255,.15);border-bottom:none}
+.ct tr.wt td.mv{font-size:22px;color:#ffbaba}
+
+/* DISCUSSION */
+.dw{border-bottom:1px solid var(--brd);background:var(--bg-w)}
+.di{padding:56px 48px}
+.dt{font-family:var(--serif);font-size:44px;font-weight:400;color:var(--t1);margin-bottom:6px}
+.ds{font-size:13px;color:var(--t3);margin-bottom:40px;font-weight:300}
+.dq{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);font-weight:400;margin:32px 0 10px}
+.dq:first-of-type{margin-top:0}
+.db{border:1px dashed var(--brd-m);padding:20px 24px;min-height:110px;margin-bottom:8px;background:var(--bg)}
+.db p{font-size:15px;color:var(--t2);font-weight:300;line-height:1.85;margin-bottom:1rem}
+.db p:last-child{margin-bottom:0}
+.sr{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 28px}
+.sc{font-size:10px;letter-spacing:.06em;padding:4px 10px;background:var(--bg);border:1px solid var(--brd-m);color:var(--t2);text-decoration:none;font-weight:400;transition:background .12s}
+.sc:hover{background:var(--brd)}
+.pt{width:100%;border-collapse:collapse;font-size:12px;margin:16px 0 28px}
+.pt th{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);font-weight:400;padding:8px 12px;text-align:left;border-bottom:1px solid var(--brd)}
+.pt td{padding:9px 12px;border-bottom:1px solid rgba(26,25,22,.04);color:var(--t2);font-weight:300}
+.pt td:first-child{color:var(--t1);font-weight:400}
+.pt tr:last-child td{font-weight:400;background:var(--bg);border-top:1px solid var(--brd);border-bottom:none}
+
+/* FOOTER */
+footer{background:var(--t1);padding:40px 48px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.fl{font-family:var(--serif);font-size:24px;font-weight:400;color:rgba(255,255,255,.5)}
+.fr{font-size:11px;color:rgba(255,255,255,.3);line-height:1.9;font-weight:300;text-align:right}
+
+/* RESPONSIVE */
+@media(max-width:720px){
+  .hero,.sh{grid-template-columns:1fr}
+  .hl{border-right:none;border-bottom:1px solid var(--brd);padding:40px 28px}
+  .hr,.sdc,.sb,.di,.cpi{padding:32px 28px}
+  .slc{border-right:none;border-bottom:1px solid var(--brd);padding:28px}
+  .rs,.blg{grid-template-columns:1fr 1fr}
+  footer{grid-template-columns:1fr}
+  .fr{text-align:left}
+  .slr{grid-template-columns:1fr 56px}
+  .slr label{display:none}
+}
+</style>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hl">
+    <div>
+      <p class="ey">Econ 134A · Financial Management</p>
+      <h1 class="ht">PG&amp;E<br>Valuation<br>Scenario<br>Analysis</h1>
+    </div>
+    <div class="hm">
+      <div><div class="mn">PCG</div><div class="ml">Ticker</div></div>
+    </div>
+  </div>
+  <div class="hr">
+    <p class="mn">Overview</p>
+    <p class="hd">PG&amp;E Corporation (NYSE:PCG) is an energy holding company whose subsidiary, Pacific Gas and Electric Company, is a major utility company that provides electricity in Northern and Central California.</p>
+    <p class="hd">In this Scenario analysis, the base case values are directly from Part A, the financial model spreadsheet. The following scenarios presented show 2 bear cases, one in which PG&amp;E is liable vs not liable for a wildfire or natural disaster event. The bull case shows the 'optimistic' scenario of expanded revenue base in the case of AI data center expansion and heightened demand.</p>
+    <p class="hd">Scroll to walk through each scenario. Select from the boxes below to go directly to a specific scenario.</p>
+    <nav class="hn">
+      <a href="#intro">Overview</a>
+      <a href="#base">Base Case</a>
+      <a href="#bear-a">Bear A</a>
+      <a href="#bear-b">Bear B</a>
+      <a href="#bull">Bull</a>
+      <a href="#compare">Comparison</a>
+      <a href="#discussion">Discussion</a>
+    </nav>
+  </div>
+</header>
+
+<!-- INTRO -->
+<div class="sw" id="intro">
+  <div class="sb">
+<img src="about-pge-rainbow-trucks-16-9.jpg" style="width:100%; display:block; margin:28px 0;">
+    </div>
+    <div id="ii" style="display:none;margin:28px 0"><img style="width:100%"></div>
+
+    <div class="cm cm-b">
+      <div class="cml">Company Overview</div>
+      <p>PG&amp;E is a regulated utility and operates under the California Public Utilities Commission (CPUC), which caps PG&amp;E's rate of return at 7.8%. Following its 2019 Chapter 11 bankruptcy, the result of being to blame for the 2017 and 2018 catastrophic wildfires, the company has undertaken a $63B multi-year infrastructure campaign.</p>
+      <p>The 2017–2018 wildfires proved that PG&amp;E was due for a major overhaul — its infrastructure was outdated and dangerous. Now, with a new CEO and majority new board members, a plan for improvement centered around sustainability, keeping rates for customers low, and improving efficiency may set PG&amp;E on a more stable future.</p>
+      <p>The purpose of this scenario analysis is to show potential future scenarios, and the probability of them occurring, that could affect PG&amp;E.</p>
+      <p>The 4 scenarios, including the base case, are described below. From our base case, it is evident that the intrinsic share price differs from the currently traded market price, which demonstrates that investors have a different view on top of our current assumptions that might be driving the share price higher. With our scenario analysis, we might be able to describe the discrepancy between the two prices.</p>
+    </div>
+
+    <div class="rs" style="margin-top:32px">
+      <div class="rc"><div class="rl">Current Market Price</div><div class="rv" style="color:var(--t1)">$18.36</div><div class="rsub">NYSE: PCG · March 10, 2026</div></div>
+      <div class="rc ab"><div class="rl">Base Case Intrinsic</div><div class="rv vb">−$20.81</div><div class="rsub">DCF · WACC 5.283% · 27% tax</div></div>
+    </div>
+  </div>
+</main></div>
+
+<!-- BASE CASE -->
+<div class="sw" id="base">
+  <div class="sh">
+    <div class="slc">
+      <div class="sn">01 — Base Case</div>
+      <div class="st">Post-Bankruptcy<br>Recovery</div>
+      <div class="sp pb">55% probability</div>
+    </div>
+    <div class="sdc">
+      <p>In the base case, PG&amp;E continues its multi-year capital investment campaign, ensuring that infrastructure is updated and wildfire risk is mitigated.</p>
+    </div>
+  </div>
+  <div class="sb">
+    <div class="ps">
+<img src="5-yr.png" style="width:100%; display:block; margin:28px 0;">
+
+    </div>
+    <div id="bi" style="display:none;margin:28px 0"><img style="width:100%"></div>
+
+    <div class="cm cm-b">
+      <div class="cml">Base Case Description</div>
+      <p>The base case reflects a conservative estimate of PG&amp;E's stated plans as described in their investor presentations, as well as reflecting current analyst sentiment from reliable sources and analyzing current financial health. The base case reflects PG&amp;E's ongoing $63B capex plan, the recent decreasing, yet still negative, cash flows, and consecutive years of zero major wildfires in PG&amp;E's area. The base case reflects CPUC-authorized rate of return of 7.80% as a structural limit.</p>
+      <p>Operating cash flows grow steadily as the new base rate expansion of 9% is approved and AI/EV demand plus natural population growth adds incremental load. FCFs remain negative through ~2029, then begin recovering as capex plateaus. This scenario uses all assumption values directly from the Part A DCF model.</p>
+      <p>A 55% probability is assigned to this case due to moderate to high confidence that PG&amp;E is taking the steps necessary to not cause another major wildfire.</p>
+    </div>
+
+    
+<table class="at caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Assumption</th>
+<th data-quarto-table-cell-role="th">Value</th>
+<th data-quarto-table-cell-role="th">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Risk Free Rate (r<sub>f</sub>)</td>
+<td>4.27%</td>
+<td>FRED — 10-yr Treasury yield</td>
+</tr>
+<tr class="even">
+<td>Market Risk Premium (low)</td>
+<td>4.18%</td>
+<td>Alpha Spread</td>
+</tr>
+<tr class="odd">
+<td>Market Risk Premium (high)</td>
+<td>5.25%</td>
+<td>Kroll / StreetStats average</td>
+</tr>
+<tr class="even">
+<td>Beta (β)</td>
+<td>0.74</td>
+<td>Alpha Spread</td>
+</tr>
+<tr class="odd">
+<td>Cost of Equity (low)</td>
+<td>7.363%</td>
+<td>CAPM: r<sub>f</sub> + β × ERP<sub>low</sub></td>
+</tr>
+<tr class="even">
+<td>Cost of Equity (high)</td>
+<td>8.155%</td>
+<td>CAPM: r<sub>f</sub> + β × ERP<sub>high</sub></td>
+</tr>
+<tr class="odd">
+<td>Cost of Debt (K<sub>d</sub>)</td>
+<td>4.94%</td>
+<td>Interest Expense ÷ Total Debt · MarketWatch</td>
+</tr>
+<tr class="even">
+<td>Tax Rate</td>
+<td>27%</td>
+<td>Statutory rate · PG&amp;E SEC 10-K FY2024</td>
+</tr>
+<tr class="odd">
+<td>WACC (low)</td>
+<td>5.123%</td>
+<td>%E × Ke_low + %D × Kd × (1−tax)</td>
+</tr>
+<tr class="even">
+<td>WACC (high)</td>
+<td>5.443%</td>
+<td>%E × Ke_high + %D × Kd × (1−tax)</td>
+</tr>
+<tr class="odd">
+<td><strong>WACC (average — used in model)</strong></td>
+<td><strong>5.283%</strong></td>
+<td>Average of WACC low and high</td>
+</tr>
+<tr class="even">
+<td>Base Year FCF</td>
+<td>$336,000,000</td>
+<td>2017 last positive FCF · SEC 10-K</td>
+</tr>
+<tr class="odd">
+<td>FCF Growth Rate</td>
+<td>6.0%</td>
+<td>Seeking Alpha; CPUC max authorized RoR 7.8%</td>
+</tr>
+<tr class="even">
+<td>Terminal Growth Rate</td>
+<td>2.5%</td>
+<td>Wall Street Prep; CBO GDP outlook</td>
+</tr>
+<tr class="odd">
+<td>Net Debt</td>
+<td>$61,188,770,000</td>
+<td>SEC 10-K FY2024</td>
+</tr>
+<tr class="even">
+<td>Shares Outstanding</td>
+<td>2,200,000,000</td>
+<td>MarketWatch</td>
+</tr>
+</tbody>
+</table>
+
+
+    <div class="rs">
+      <div class="rc ab"><div class="rl">Intrinsic Share Price</div><div class="rv vb">−$20.81</div><div class="rsub">Exact from spreadsheet model</div></div>
+      <div class="rc"><div class="rl">PV of FCFs</div><div class="rv" style="color:var(--t1)">$1.72B</div><div class="rsub">$1,722,520,209 exact</div></div>
+      <div class="rc"><div class="rl">PV of Terminal Value</div><div class="rv" style="color:var(--t1)">$13.69B</div><div class="rsub">$13,687,246,169 exact</div></div>
+      <div class="rc"><div class="rl">Enterprise Value</div><div class="rv" style="color:var(--t1)">$15.41B</div><div class="rsub">Far below $61.19B net debt</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- BEAR A -->
+<div class="sw" id="bear-a">
+  <div class="sh">
+    <div class="slc">
+      <div class="sn">02 — Bear Case A</div>
+      <div class="st">Second Bankruptcy<br>&amp; State Takeover</div>
+      <div class="sp pr">5% probability</div>
+    </div>
+    <div class="sdc">
+      <p>PG&amp;E is found liable for a third major wildfire event. The AB 1054 Wildfire Fund is exhausted. The company enters Chapter 11 for a second time. Governor Newsom invokes state authority — embedded in the 2020 reorganization plan — to convert PG&amp;E into a public utility. All shareholder equity is wiped out.</p>
+    </div>
+  </div>
+  <div class="sb">
+<img src="ca-times.brightspotcdn.jpg" style="width:100%; display:block; margin:28px 0;">
+
+    </div>
+    <div id="rai" style="display:none;margin:28px 0"><img style="width:100%"></div>
+
+    <div class="cm cm-r">
+      <div class="cml">Bear Case A — Description</div>
+      <p>In this bear case, a pessimistic scenario, another wildfire occurs and PG&amp;E is, once again, found to be liable. In 2019, California governor Gavin Newsom threatened a public takeover, making PG&amp;E a state-owned utility (Cal Matters). In this case, there is a state fund to help with the liability that wildfires pose to electricity companies — the AB 1054 Wildfire Fund — yet this fund does not come close to covering the damages from 2017, and due to rising climate risk, a future wildfire might cause much larger damages.</p>
+    </div>
+
+    
+<table class="at caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Assumption</th>
+<th data-quarto-table-cell-role="th">Bear A Value</th>
+<th data-quarto-table-cell-role="th">Change</th>
+<th data-quarto-table-cell-role="th">Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beta (β)</td>
+<td class="vu">1.80</td>
+<td><span class="bc bu">↑ from 0.74</span></td>
+<td>Returns to 2018–19 distressed utility levels</td>
+</tr>
+<tr class="even">
+<td>Market Risk Premium</td>
+<td class="vu">9.0%</td>
+<td><span class="bc bu">↑ from 4.18–5.25%</span></td>
+<td>Severe liability re-emergence; investor flight</td>
+</tr>
+<tr class="odd">
+<td>Risk Free Rate</td>
+<td class="vu">5.25%</td>
+<td><span class="bc bu">↑ from 4.27%</span></td>
+<td>Crisis environment; credit spreads widen</td>
+</tr>
+<tr class="even">
+<td>OCF Growth</td>
+<td class="vu">−20%</td>
+<td><span class="bc bu">↓↓ collapse</span></td>
+<td>Revenue disruption; litigation drains operations</td>
+</tr>
+<tr class="odd">
+<td>Terminal Growth Rate</td>
+<td style="color: var(--t3)">N/A</td>
+<td><span class="bc bs">—</span></td>
+<td>DCF moot; state converts to public utility</td>
+</tr>
+<tr class="even">
+<td>Tax Rate</td>
+<td style="color: var(--t3)">N/A</td>
+<td><span class="bc bs">—</span></td>
+<td>Company no longer investor-owned</td>
+</tr>
+</tbody>
+</table>
+
+
+    <div class="rs">
+      <div class="rc ar"><div class="rl">Intrinsic Share Price</div><div class="rv vr">$0.00</div><div class="rsub">Equity wiped out — state takeover</div></div>
+      <div class="rc"><div class="rl">Equity Value</div><div class="rv" style="color:var(--t1)">$0</div><div class="rsub">Shareholders receive nothing</div></div>
+      <div class="rc"><div class="rl">Probability</div><div class="rv" style="color:var(--t1)">5%</div><div class="rsub">Low — improving safety record</div></div>
+      <div class="rc"><div class="rl">Prob. × Value</div><div class="rv" style="color:var(--t1)">$0.00</div><div class="rsub">5% × $0.00 = $0 weighted</div></div>
+    </div>
+
+    <div class="cm cm-r">
+      <div class="cml">Bear Case A — Analysis</div>
+      <p>This case is only 5% likely, due to steps PG&amp;E has taken for wildfire mitigation and the fact that the company now has access to the AB 1054 Wildfire Fund as a first-line defense. Though the probability is low, it poses a high risk of having the company fully dissolved.</p>
+    </div>
+  </div>
+
+
+<!-- BEAR B -->
+<div class="sw" id="bear-b">
+  <div class="sh">
+    <div class="slc">
+      <div class="sn">03 — Bear Case B</div>
+      <div class="st">External Catastrophe<br>Not PG&amp;E's Fault</div>
+      <div class="sp pc">25% probability</div>
+    </div>
+    <div class="sdc">
+      <p>A major earthquake, which California is overdue for, a potential coastal tsunami, an unprecedented wind event, or geopolitical disruption causes widespread damage to PG&amp;E's grid. In this bear case, PG&amp;E is not found liable — but must absorb $8–10B in emergency capex on top of its existing plan. During this time, the OCF collapses during recovery, and debt servicing becomes severely strained.</p>
+    </div>
+  </div>
+  <div class="sb">
+<img src="818c11-20190705-california-quake.jpg" style="width:100%; display:block; margin:28px 0;">
+    </div>
+    <div id="cai" style="display:none;margin:28px 0"><img style="width:100%"></div>
+
+    <div class="cm cm-c">
+      <div class="cml">Bear Case B</div>
+      <p>The key distinction from Bear A is that now, PG&amp;E is not liable, so its equity isn't wiped out. Emergency repairs ($8–10B) on top of the existing $63B plan severely strain the balance sheet. This is a potential case given California's USGS seismic risk, climate change which increases the variability and severity of extreme weather events, and the possibility of geopolitical conflict and its effects on infrastructure. Given current events and climate risk coupled with PG&amp;E's wildfire mitigation steps, this case is assigned a 25% probability.</p>
+    </div>
+
+    
+<table class="at caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Assumption</th>
+<th data-quarto-table-cell-role="th">Bear B Value</th>
+<th data-quarto-table-cell-role="th">Change</th>
+<th data-quarto-table-cell-role="th">Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Risk Free Rate</td>
+<td>4.75%</td>
+<td><span class="bc bu">↑ from 4.27%</span></td>
+<td>Mild crisis premium; mixed flight-to-quality signal</td>
+</tr>
+<tr class="even">
+<td>Market Risk Premium</td>
+<td class="vu">6.50%</td>
+<td><span class="bc bu">↑ from 4.18–5.25%</span></td>
+<td>Elevated uncertainty — investors require higher return for greater risk</td>
+</tr>
+<tr class="odd">
+<td>Beta (β)</td>
+<td class="vu">1.10</td>
+<td><span class="bc bu">↑ from 0.74</span></td>
+<td>Increased volatility, but the utility is still operational</td>
+</tr>
+<tr class="even">
+<td>WACC</td>
+<td class="vu">6.95%</td>
+<td><span class="bc bu">↑ from 5.28%</span></td>
+<td>Higher cost of equity; debt terms remain unchanged</td>
+</tr>
+<tr class="odd">
+<td>FCF Growth — Year 1</td>
+<td class="vu">−10%</td>
+<td><span class="bc bu">↓ from +6%</span></td>
+<td>Immediate service interruption</td>
+</tr>
+<tr class="even">
+<td>FCF Growth — Years 2–5</td>
+<td>+4%</td>
+<td><span class="bc bu">↓ from +6%</span></td>
+<td>Slow recovery; constrained by higher repair capex</td>
+</tr>
+<tr class="odd">
+<td>Terminal Growth Rate</td>
+<td class="vu">2.0%</td>
+<td><span class="bc bu">↓ from 2.5%</span></td>
+<td>Permanent capacity damage possible</td>
+</tr>
+<tr class="even">
+<td>Tax Rate</td>
+<td>27%</td>
+<td><span class="bc bs">unchanged</span></td>
+<td>No change — PG&amp;E not liable for the event</td>
+</tr>
+<tr class="odd">
+<td>Base Year FCF</td>
+<td>$336M</td>
+<td><span class="bc bs">unchanged</span></td>
+<td>Normalization basis unchanged; path shifts not origin</td>
+</tr>
+</tbody>
+</table>
+
+
+    <p style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);margin:24px 0 10px;font-weight:400">Year-by-Year FCF Projection</p>
+    
+<table class="ft caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Year</th>
+<th data-quarto-table-cell-role="th">FCF Estimate</th>
+<th data-quarto-table-cell-role="th">Growth</th>
+<th data-quarto-table-cell-role="th">Discount Factor (6.95%)</th>
+<th data-quarto-table-cell-role="th">PV of FCF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Year 1 (2026)</td>
+<td>$302.4M</td>
+<td>−10%</td>
+<td>0.9350</td>
+<td>$282.7M</td>
+</tr>
+<tr class="even">
+<td>Year 2 (2027)</td>
+<td>$314.5M</td>
+<td>+4%</td>
+<td>0.8742</td>
+<td>$274.9M</td>
+</tr>
+<tr class="odd">
+<td>Year 3 (2028)</td>
+<td>$327.1M</td>
+<td>+4%</td>
+<td>0.8174</td>
+<td>$267.3M</td>
+</tr>
+<tr class="even">
+<td>Year 4 (2029)</td>
+<td>$340.2M</td>
+<td>+4%</td>
+<td>0.7643</td>
+<td>$259.9M</td>
+</tr>
+<tr class="odd">
+<td>Year 5 (2030)</td>
+<td>$353.8M</td>
+<td>+4%</td>
+<td>0.7146</td>
+<td>$252.8M</td>
+</tr>
+<tr class="sub even">
+<td>Sum of PV FCFs</td>
+<td colspan="4">$1.338B</td>
+</tr>
+<tr class="sub odd">
+<td>PV of Terminal Value</td>
+<td colspan="4">$5.204B</td>
+</tr>
+</tbody>
+</table>
+
+
+    <div class="rs">
+      <div class="rc ac"><div class="rl">Intrinsic Share Price</div><div class="rv vc">−$24.84</div><div class="rsub">Worse than base case</div></div>
+      <div class="rc"><div class="rl">Enterprise Value</div><div class="rv" style="color:var(--t1)">$6.54B</div><div class="rsub">vs $61.19B net debt</div></div>
+      <div class="rc"><div class="rl">Equity Value</div><div class="rv" style="color:var(--t1)">−$54.64B</div><div class="rsub">Higher WACC compresses TV</div></div>
+      <div class="rc"><div class="rl">Prob. × Value</div><div class="rv" style="color:var(--t1)">−$6.21</div><div class="rsub">25% × −$24.84</div></div>
+    </div>
+
+    <div class="cm cm-c">
+      <div class="cml">Bear Case B — Analysis</div>
+      <p>In this Bear Case B, PG&amp;E has survived but has to scale up its CapEx even more in response to the emergency situation. The cost of equity rises, raising the WACC. The higher WACC of 6.95% lowers both the PV of FCFs and the terminal value from $13.69B to $5.20B — an $8.49B difference. The $61.19B in net debt leaves zero cushion for unplanned capital calls, and the company must refinance and look for more debt or further assistance from the state. In this case, the AB Wildfire Fund can provide some relief.</p>
+    </div>
+  </div>
+
+
+<!-- BULL -->
+<div class="sw" id="bull">
+  <div class="sh">
+    <div class="slc">
+      <div class="sn">04 — Bull Case</div>
+      <div class="st">AI Energy,<br>Supercharged Grid,<br>Mitigated Wildfire Risk</div>
+      <div class="sp pg">15% probability</div>
+    </div>
+    <div class="sdc">
+      <p>Northern California becomes the epicenter of US AI infrastructure buildout. PG&amp;E signs long-term power agreements with data center and AI companies centered in Silicon Valley, EV adoption and electrification accelerates under California mandates, and potentially remaining federal IRA credits reduce the effective tax burden. This drives OCF growth well above historical rates, CapEx spending slows, and FCF pushes toward positive territory faster than the base case.</p>
+    </div>
+  </div>
+  <div class="sb">
+<img src="market-snapshot-energy-demand-from-data-centers-is-steadily-increasing-and-ai-development-is-a-significant-factor-image-01.jpg" style="width:100%; display:block; margin:28px 0;">
+    </div>
+    <div id="gi" style="display:none;margin:28px 0"><img style="width:100%"></div>
+
+    <div class="cm cm-g">
+      <div class="cml">Bull Case — Description</div>
+      <p>This bull case reflects the optimistic scenario for PG&amp;E. As stated in PG&amp;E Q4 2025 earnings, they expect 3.6 GW of data center projects to be instated in final engineering. Further, California's EV mandate requires 100% new car sales to be electric by 2035, and if this remains the trajectory, it will require significantly more load from PG&amp;E and the grid to power transportation. Lastly, the IRA clean energy credits reduce the effective tax rate.</p>
+    </div>
+
+    
+<table class="at caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Assumption</th>
+<th data-quarto-table-cell-role="th">Bull Value</th>
+<th data-quarto-table-cell-role="th">Change</th>
+<th data-quarto-table-cell-role="th">Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Risk Free Rate</td>
+<td class="vd">3.75%</td>
+<td><span class="bc bd">↓ from 4.27%</span></td>
+<td>Fed cuts rates and AI investment sustains growth</td>
+</tr>
+<tr class="even">
+<td>Market Risk Premium</td>
+<td class="vd">4.0%</td>
+<td><span class="bc bd">↓ from 4.18–5.25%</span></td>
+<td>Contracted hyperscaler revenue lowers risk perception</td>
+</tr>
+<tr class="odd">
+<td>Beta (β)</td>
+<td class="vd">0.60</td>
+<td><span class="bc bd">↓ from 0.74</span></td>
+<td>Long-term power agreements create a more stable revenue outlook</td>
+</tr>
+<tr class="even">
+<td>Cost of Equity</td>
+<td class="vd">6.15%</td>
+<td><span class="bc bd">↓ from 7.36–8.16%</span></td>
+<td>CAPM: 3.75% + 0.60 × 4.0%</td>
+</tr>
+<tr class="odd">
+<td>Tax Rate</td>
+<td class="vd">18%</td>
+<td><span class="bc bd">↓ from 27%</span></td>
+<td>IRA clean energy credits + California subsidies</td>
+</tr>
+<tr class="even">
+<td>WACC</td>
+<td class="vd">4.90%</td>
+<td><span class="bc bd">↓ from 5.28%</span></td>
+<td>Lower equity risk + lower after-tax cost of debt</td>
+</tr>
+<tr class="odd">
+<td>FCF Growth Rate</td>
+<td id="bgd" class="vd">20%</td>
+<td><span class="bc bd">↑↑ slider below</span></td>
+<td>AI/EV demand surge drives OCF above capex faster</td>
+</tr>
+<tr class="even">
+<td>Terminal Growth Rate</td>
+<td class="vd">3.5%</td>
+<td><span class="bc bd">↑ from 2.5%</span></td>
+<td>Growth utility re-rating; approaching nominal GDP ceiling</td>
+</tr>
+</tbody>
+</table>
+
+
+    <div class="slp">
+      <h3>Adjust FCF Growth Rate — Live DCF</h3>
+      <div class="slr">
+        <label>FCF Growth Rate</label>
+        <input type="range" min="10" max="30" value="20" step="1" id="bsl" oninput="ub()">
+        <span class="sv" id="bgl">20%</span>
+      </div>
+      <div class="blg">
+        <div class="blc"><div class="rl">Intrinsic Share Price</div><div class="rv vg" id="bis" style="font-size:44px">—</div><div class="rsub" id="bn"></div></div>
+        <div class="blc"><div class="rl">Enterprise Value</div><div class="rv" style="color:var(--t1);font-size:34px" id="bev">—</div><div class="rsub">PV FCFs + PV Terminal Value</div></div>
+        <div class="blc"><div class="rl">Equity Value</div><div class="rv" style="font-size:34px" id="beq">—</div><div class="rsub">EV minus $61.19B net debt</div></div>
+      </div>
+      <div class="bln">WACC 4.90% · Terminal Growth 3.5% · Base FCF $336M · Net Debt $61.19B · Shares 2.20B</div>
+    </div>
+
+    <div class="cm cm-g">
+      <div class="cml">Bull Case — Analysis</div>
+      <p>The bull case only produces a positive intrinsic value when FCF growth exceeds ~24.5%. At the 20% default, intrinsic is still −$4.53. For 25%+ growth to be sustained, exponential demand driven by PG&amp;E's 3.6 GW data center pipeline and California's EV mandate would need to materialize ahead of schedule and translate directly into approved rate base expansion.</p>
+    </div>
+  </div>
+
+
+<!-- COMPARISON -->
+<div class="cpw" id="compare">
+  <div class="cpi">
+    <div class="cpt">Scenario Comparison</div>
+    <p class="cps">All four scenarios side by side, with probability-weighted intrinsic value. Bull case shown at 20% FCF growth (slider default).</p>
+    
+<table class="ct caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Scenario</th>
+<th data-quarto-table-cell-role="th">WACC</th>
+<th data-quarto-table-cell-role="th">FCF Growth</th>
+<th data-quarto-table-cell-role="th">Terminal g</th>
+<th data-quarto-table-cell-role="th">Intrinsic / Share</th>
+<th data-quarto-table-cell-role="th">Probability</th>
+<th data-quarto-table-cell-role="th">Prob. × Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Base — Post-bankruptcy Recovery</td>
+<td class="mv">5.28%</td>
+<td class="mv">6%</td>
+<td class="mv">2.5%</td>
+<td class="mv">−$20.81</td>
+<td class="mv">55%</td>
+<td class="mv">−$11.45</td>
+</tr>
+<tr class="even">
+<td>Bear A — Second Bankruptcy</td>
+<td class="mv">12%+</td>
+<td class="mv">−20%</td>
+<td class="mv">N/A</td>
+<td class="mv">$0.00</td>
+<td class="mv">5%</td>
+<td class="mv">$0.00</td>
+</tr>
+<tr class="odd">
+<td>Bear B — External Catastrophe</td>
+<td class="mv">6.95%</td>
+<td class="mv">−10% → +4%</td>
+<td class="mv">2.0%</td>
+<td class="mv">−$24.84</td>
+<td class="mv">25%</td>
+<td class="mv">−$6.21</td>
+</tr>
+<tr class="even">
+<td>Bull — AI Supercycle</td>
+<td class="mv">4.90%</td>
+<td class="mv">10–30% (slider)</td>
+<td class="mv">3.5%</td>
+<td class="mv">−$8.92 to +$6.71</td>
+<td class="mv">15%</td>
+<td class="mv">−$1.34 to +$1.01</td>
+</tr>
+<tr class="wt odd">
+<td colspan="4" style="font-size: 10px; letter-spacing: .12em; text-transform: uppercase">Probability-Weighted Intrinsic Value</td>
+<td colspan="2" class="mv" style="text-align: center;">100%</td>
+<td class="mv">−$18.10</td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+</div>
+
+<!-- DISCUSSION -->
+<div class="dw" id="discussion">
+  <div class="di">
+    <div class="dt">Discussion</div>
+
+    <div class="dq">Question 1 — Which scenario is most likely, and why?</div>
+    <div class="db">
+      <p>The most likely scenario is the base case at 55% probability. This is because PG&amp;E has had three consecutive years of zero major wildfires, has committed to and so far followed through on their $63B investment plan. Additionally, the CPUC has pre-approved their rate base expansion of 9% each year. However, it is also likely that due to climate risks, PG&amp;E faces further disruption to their currently outdated infrastructure before the overhaul is finished.</p>
+    </div>
+    <div class="sr">
+      <a class="sc" href="https://investor.pgecorp.com/news-events/press-releases/press-release-details/2026/PGE-Corporation-Reports-Solid-2025-Results-Tightens-2026-Earnings-Guidance/default.aspx">PG&amp;E Q4 2025 Press Release</a>
+      <a class="sc" href="https://calmatters.org/environment/wildfires/2020/03/california-pge-bankruptcy-gavin-newsom-deal/">Cal Matters</a>
+      <a class="sc" href="https://www.wallstreetprep.com/knowledge/terminal-growth-rate/">Wall Street Prep</a>
+      <a class="sc" href="https://fred.stlouisfed.org/">FRED</a>
+      <a class="sc" href="https://www.alphaspread.com/security/nyse/pcg/discount-rate">Alpha Spread</a>
+      <a class="sc" href="https://institutional.fidelity.com/advisors/insights/spotlights/equity-sector-performance-outlook/utilities-sector">Fidelity — Utility Sector</a>
+      <a class="sc" href="https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/electric-costs/historical-electric-cost-data/rate-of-return">CPUC</a>
+    </div>
+
+    <div class="dq">Question 2 — What probability do you assign to each scenario, and why?</div>
+    <div class="db">
+      <p>The base case is assigned 55% probability due to moderate to high confidence that PG&amp;E is taking the steps necessary to avoid another major wildfire. PG&amp;E has had three consecutive years of zero major wildfires, has committed to and so far followed through on its $63B investment plan, and the CPUC has pre-approved a rate base expansion of 9% per year — providing a structurally stable revenue floor.
+Bear A is assigned only 5% probability. PG&amp;E now has access to the AB 1054 Wildfire Fund as a first-line defense, and the steps taken for wildfire mitigation reduce the likelihood of a third liability event. While Governor Newsom threatened a public takeover in 2019, his stance had cooled significantly by January 2026. The outcome is severe — equity goes to zero — but the likelihood of reaching that point is low given current trajectory.
+Bear B is assigned 25% probability because California's seismic risk, climate-driven increases in the severity of extreme weather events, and the possibility of geopolitical conflict affecting infrastructure are real and non-zero over any decade-long horizon. The key distinction is that PG&amp;E would not be liable in this scenario, which is why the probability is higher than Bear A — the triggering event is outside PG&amp;E's control and therefore harder to mitigate.
+The bull case is assigned 15% probability. The underlying drivers — PG&amp;E's 3.6 GW data center pipeline in final engineering, California's EV mandate requiring 100% electric new car sales by 2035, and IRA clean energy credits — are real and already in motion. However, the timing and magnitude of their impact on FCF is uncertain, and CPUC approval processes create structural delays between demand growth and revenue recognition.</p>
+    </div>
+
+    
+<table class="pt caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Scenario</th>
+<th data-quarto-table-cell-role="th">Probability</th>
+<th data-quarto-table-cell-role="th">Key Supporting Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Base — Post-bankruptcy Recovery</td>
+<td>55%</td>
+<td>3 yrs zero wildfires; OCF growing; CPUC rate cases approved</td>
+</tr>
+<tr class="even">
+<td>Bear A — Second Bankruptcy + State Takeover</td>
+<td>5%</td>
+<td>Low — improving safety; Newsom cooling on state takeover Jan. 2026</td>
+</tr>
+<tr class="odd">
+<td>Bear B — External Catastrophe</td>
+<td>25%</td>
+<td>Moderate — CA seismic + climate risk real over any decade horizon</td>
+</tr>
+<tr class="even">
+<td>Bull — AI Energy Supercycle</td>
+<td>15%</td>
+<td>Real but timing uncertain; 3.6 GW data center pipeline promising</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+
+
+    <div class="dq">Question 3 — What does this analysis imply about investing in PG&amp;E?</div>
+    <div class="db" style="min-height:140px">
+      <p>This analysis shows that investors might have something else they are looking at when it comes to valuing PG&amp;E. It is interesting that the current market share price is $18.36 when the probability-weighted intrinsic is −$18.10, creating a ~$36 gap. It seems like the market is not pricing PG&amp;E on a DCF basis. Instead, investors may be weighing their own models independent of past trends, given that PG&amp;E has a completely new board and management group. Additionally, there is a chance that not even our bull case is correctly estimating the potential demand increase that AI poses on the California utility company.</p>
+    </div>
+
+      <div class="psh">Suggested: scenario waterfall chart, probability distribution, PG&amp;E capex timeline</div>
+    </div>
+    <div id="ddi" style="display:none;margin:28px 0"><img style="width:100%"></div>
+  </div>
+
+
+<footer>
+  <div class="fl">PG&amp;E<br>DCF Scenario Analysis</div>
+  <div class="fr">Sources: PG&amp;E SEC 10-K Filings · FRED · Alpha Spread · Kroll · StreetStats · Wall Street Prep · CBO Economic Outlook · CPUC · Cal Matters · Fidelity Institutional · Seeking Alpha · NYT · PG&amp;E Investor Relations</div>
+</footer>
+
+<script>
+const BF=336e6,ND=61188770000,SH=2200000000,WB=.049,TG=.035;
+function bd(g){let p=0,f=BF;for(let i=1;i<=5;i++){f*=(1+g);p+=f/Math.pow(1+WB,i)}const tv=f*(1+TG)/(WB-TG),pt=tv/Math.pow(1+WB,5),ev=p+pt,eq=ev-ND;return{ev,eq,i:eq/SH}}
+function fs(v){return(v<0?'−$':'+$')+Math.abs(v).toFixed(2)}
+function fb(v){return(v<0?'−$':'+$')+(Math.abs(v)/1e9).toFixed(2)+'B'}
+function be(){for(let g=.10;g<=.35;g+=.001)if(bd(g).i>=0)return g;return null}
+function ub(){
+  const g=parseFloat(document.getElementById('bsl').value)/100,r=bd(g),pct=(g*100).toFixed(0)+'%';
+  document.getElementById('bgl').textContent=pct;
+  document.getElementById('bgd').textContent=pct;
+  const ie=document.getElementById('bis');ie.textContent=fs(r.i);ie.style.color=r.i>=0?'var(--ga)':'var(--ca)';
+  const ee=document.getElementById('beq');ee.textContent=fb(r.eq);ee.style.color=r.eq>=0?'var(--ga)':'var(--t1)';
+  document.getElementById('bev').textContent=fb(r.ev);
+  const b=be(),n=document.getElementById('bn');
+  if(r.i>=0){n.textContent='DCF turns positive at '+pct+' growth.';n.style.color='var(--ga)'}
+  else{n.textContent='Breakeven requires ~'+(b?(b*100).toFixed(1)+'%':'35%+')+' FCF growth.';n.style.color='var(--t3)'}
+}
+function lp(inp,tid){if(!inp.files||!inp.files[0])return;const r=new FileReader();r.onload=e=>{const w=document.getElementById(tid);w.querySelector('img').src=e.target.result;w.style.display='block';inp.closest('.ps').style.display='none'};r.readAsDataURL(inp.files[0])}
+ub();
+</script>
+
+
+
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+ <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

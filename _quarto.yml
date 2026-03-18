@@ -3,22 +3,39 @@ project:
   output-dir: docs
 
 website:
-  title: "cristinajacks0n.github.io"
+  title: "Cristina Jackson"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
-      - sailing.qmd
-      - aboutme.qmd
-      - resume.qmd
+      - href: projects.qmd
+        text: Work
+      - href: posts.qmd
+        text: Blog
+      - href: sailing.qmd
+        text: Hobbies
+      - href: aboutme.qmd
+        text: About
+      - href: finance.qmd
+        text: Finance
+    right:
+      - href: resume.qmd
+        text: Resume
+      - icon: github
+        href: https://github.com/cristinajacks0n
+        aria-label: GitHub
 
 format:
   html:
-    theme: yeti
-    css: styles.css
-    toc: true
+    theme: [yeti, styles.scss]
+    toc: false
     page-layout: full
+    smooth-scroll: true
+    code-fold: true
+
+execute:
+  freeze: auto
+  echo: false
 
 editor: visual
 

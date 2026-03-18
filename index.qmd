@@ -1,32 +1,214 @@
 ---
-format:
-  html:
-    theme: yeti
-    page-layout: full
-
-profile:
-  name: Cristina Jackson
-  image-shape: rectangle
-  image-width: 17em
-  image-title: Cristina Jackson
-
-  links:
-  - icon: linkedin
-    text: LinkedIn
-    href: https://www.linkedin.com/in/cristina-jackson-244926211/
-  - icon: envelope
-    text: Email
-    href: mailto:cjackson@ucsb.edu
+title: ""
+page-layout: full
+toc: false
 ---
 
-## Home Page
+```{=html}
+<style>
+  .profile-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 100vh;
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
 
-![Sunset walk to Devs Beach in Isla Vista](docs/IMG_6368.jpg)
+  .profile-left {
+    padding: 20px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid rgba(26,25,22,0.1);
+  }
 
-Hi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. This past quarter, I have been learning how to code with R Studio, which I have really enjoyed because of the creativity and problem solving it allows for. In both my economics and environmental studies courses this quarter, I have used R Studio to analyze data and present my findings with teachers, classmates, and even judges. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love being outdoors and one of my favorite things about Santa Barbara is how there are so many activities to do outside, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers. I also currently work in administration with Doss MD/Artistic Eyes, an oculoplastic surgeon's office in downtown Santa Barbara.
+  .profile-img {
+    width: 100%;
+    max-width: 280px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin-bottom: 28px;
+  }
 
-## Education
+  .profile-name {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #1a1916;
+    margin-bottom: 12px;
+    line-height: 1.1;
+  }
 
-**Bachelor of Arts (BA) in Economics and Environmental Studies**  
-University of California, Santa Barbara (Expected Graduation: June 2026)
+  .profile-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 4px;
+  }
 
+  .profile-meta span {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6b6960;
+    font-weight: 300;
+  }
+
+  .profile-meta .divider {
+    width: 32px;
+    height: 1px;
+    background: rgba(26,25,22,0.2);
+    margin: 8px 0;
+  }
+
+   .profile-right {
+    padding: 20px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+
+  .profile-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    margin-bottom: 16px;
+  }
+
+  .profile-bio {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #1a1916;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 580px;
+    border-left: 2px solid #2d4a3e;
+    padding-left: 28px;
+  }
+
+  .currently-block {
+    max-width: 520px;
+  }
+
+  .currently-heading {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    margin-bottom: 20px;
+  }
+
+  .currently-item {
+    display: flex;
+    gap: 20px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(26,25,22,0.08);
+    align-items: baseline;
+  }
+
+  .currently-item:first-of-type {
+    border-top: 1px solid rgba(26,25,22,0.08);
+  }
+
+  .c-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #c8b89a;
+    flex-shrink: 0;
+    margin-top: 8px;
+  }
+
+  .c-text {
+    font-size: 14px;
+    color: #6b6960;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+
+  .c-text strong {
+    color: #1a1916;
+    font-weight: 500;
+  }
+
+  .profile-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .profile-link {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f7f5f1;
+    background: #1a1916;
+    padding: 11px 24px;
+    text-decoration: none;
+    transition: background 0.2s;
+    border: 1px solid transparent;
+  }
+
+  .profile-link:hover {
+    background: #2d4a3e;
+    text-decoration: none;
+    color: #f7f5f1;
+  }
+
+  .profile-link.ghost {
+    background: transparent;
+    color: #1a1916;
+    border: 1px solid rgba(26,25,22,0.2);
+  }
+
+  .profile-link.ghost:hover {
+    border-color: #1a1916;
+    background: transparent;
+    color: #1a1916;
+  }
+</style>
+
+<section class="profile-section">
+
+  <!-- LEFT: photo + name + info -->
+  <div class="profile-left">
+    <img src="docs/IMG_6368.jpg" class="profile-img" alt="Cristina Jackson"/>
+    <h1 class="profile-name">Cristina<br>Jackson</h1>
+    <div class="profile-meta">
+      <div class="divider"></div>
+      <span>Bachelor of Arts (BA) in Economics and Environmental Studies, University of California, Santa Barbara (Expected Graduation: June 2026)</span>
+    </div>
+  </div>
+
+  <!-- RIGHT: bio + currently + links -->
+  <div class="profile-right">
+
+    <div>
+      <p class="profile-eyebrow">About me</p>
+      <p class="profile-bio">Hi. I'm Cristina. I am intersted in financial management, sustainable energy, and learning to code. I will be graduating this Spring. I enjoy sailing, running, and vibe-coding in my free time.</p>
+    </div>
+
+    <div class="currently-block">
+      <p class="currently-heading">Currently</p>
+      <div class="currently-item">
+        <div class="c-dot"></div>
+        <p class="c-text"><strong>Working on</strong> This website </p>
+      </div>
+      <div class="currently-item">
+        <div class="c-dot"></div>
+        <p class="c-text"><strong>Studying</strong> Financial Management, Environmental Law, and Personnel and Behavioral Economics. </p>
+      </div>
+      <div class="currently-item">
+        <div class="c-dot"></div>
+        <p class="c-text"><strong>Reading</strong> Little Fires Everywhere </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+```

@@ -1,31 +1,235 @@
 ---
-title: "About Me"
+title: ""
+page-layout: full
+toc: false
 ---
+```{=html}
+<style>
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 100vh;
+  }
 
+  /* sticky left */
+.about-left {
+    padding: 64px 48px;
+    border-right: 1px solid rgba(26,25,22,0.1);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .about-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    margin-bottom: 12px;
+  }
+  .about-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+    color: #1a1916;
+  }
+  .about-desc {
+    font-size: 14px;
+    color: #6b6960;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+    .about-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 0;
+  }
 
-## Photography
-I love to travel, explore new places, and take cool pictures of nature. This year, I went to Laguna Beach with my sister and mom and saw the most amazing sunset. I also went to Joshua Tree for the first time, and thought the rock formations were very unique. Here are some photos from my adventures.
+  .about-nav-item {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    cursor: pointer;
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+  .about-nav-item:hover { color: #1a1916; text-decoration: none; }
 
-![Sunset in Laguna Beach](docs/IMG_1813.jpg)
+  /* scrolling right */
+  .about-right {
+    display: flex;
+    flex-direction: column;
+  }
 
-![Rocks in Joshua Tree National Park](docs/IMG_2010.jpg)
+  .about-section {
+    padding: 64px 64px;
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
+  .about-section-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #1a1916;
+    margin-bottom: 16px;
+  }
+  .about-section-desc {
+    font-size: 14px;
+    color: #6b6960;
+    font-weight: 300;
+    line-height: 1.8;
+    max-width: 560px;
+    margin-bottom: 32px;
+  }
 
+  /* photo grids */
+  .photo-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: rgba(26,25,22,0.1);
+    border: 1px solid rgba(26,25,22,0.1);
+  }
+  .photo-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    background: rgba(26,25,22,0.1);
+    border: 1px solid rgba(26,25,22,0.1);
+  }
+  .photo-item {
+    overflow: hidden;
+    background: #f7f5f1;
+  }
+  .photo-item img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  .photo-caption {
+    padding: 12px 14px;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: #a8a59e;
+    font-style: italic;
+    line-height: 1.5;
+  }
 
-## Pets
+  /* running stats */
+  .running-stats {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgba(26,25,22,0.08);
+  }
+  .run-stat-num {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #1a1916;
+    line-height: 1;
+  }
+  .run-stat-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    margin-top: 6px;
+  }
+</style>
 
-I have two dogs, Ollie and Buster. They are the cutest. Ollie, I like to take on long runs on the beach. Buster loves to go on a walk to Starbucks with me and get a pup cup.
+<div class="about-wrapper">
 
-![Ollie](docs/IMG_2671.jpg)
+  <!-- STICKY LEFT -->
+  <div class="about-left">
+    <div>
+      <p class="about-eyebrow">Cristina Jackson</p>
+      <h1 class="about-title">Beyond<br>the<br>Resume</h1>
+      <p class="about-desc">Photography, dogs, running, and everything in between — the side of me that doesn't fit on a CV.</p>
+    </div>
+    <nav class="about-nav">
+      <a class="about-nav-item" href="#photography">Photography</a>
+      <a class="about-nav-item" href="#pets">Ollie & Buster</a>
+      <a class="about-nav-item" href="#running">Running</a>
+    </nav>
+  </div>
 
+  <!-- SCROLLING RIGHT -->
+  <div class="about-right">
 
-![Buster](docs/IMG_5019.jpg)
+    <!-- PHOTOGRAPHY -->
+    <section class="about-section" id="photography">
+      <h2 class="about-section-title">Photography</h2>
+      <p class="about-section-desc">I love to travel, explore new places, and take photos of nature. This year I visited Laguna Beach with my sister and mom and caught an incredible sunset, and explored Joshua Tree for the first time — the rock formations are unlike anything I've seen.</p>
+      <div class="photo-grid-2">
+        <div class="photo-item">
+          <img src="docs/IMG_1813.jpg" alt="Sunset in Laguna Beach"/>
+          <p class="photo-caption">Sunset in Laguna Beach</p>
+        </div>
+        <div class="photo-item">
+          <img src="docs/IMG_2010.jpg" alt="Rocks in Joshua Tree"/>
+          <p class="photo-caption">Joshua Tree National Park</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- PETS -->
+    <section class="about-section" id="pets">
+      <h2 class="about-section-title">Ollie & Buster</h2>
+      <p class="about-section-desc">I have two dogs, Ollie and Buster. Ollie loves long runs on the beach. Buster's idea of a perfect outing is a walk to Starbucks and a pup cup.</p>
+      <div class="photo-grid-3">
+        <div class="photo-item">
+          <img src="docs/IMG_2671.jpg" alt="Ollie"/>
+          <p class="photo-caption">Ollie</p>
+        </div>
+        <div class="photo-item">
+          <img src="docs/IMG_5019.jpg" alt="Buster"/>
+          <p class="photo-caption">Buster</p>
+        </div>
+        <div class="photo-item">
+          <img src="docs/IMG_0039.jpg" alt="Ollie, Bodie and Mia"/>
+          <p class="photo-caption">Ollie, Bodie, and Mia</p>
+        </div>
+      </div>
+    </section>
 
-![Ollie and his friend Bodie and my friend Mia!](docs/IMG_0039.jpg)
+    <!-- RUNNING -->
+    <section class="about-section" id="running">
+      <h2 class="about-section-title">Running</h2>
+      <div class="running-stats">
+        <div>
+          <div class="run-stat-num">13.1</div>
+          <div class="run-stat-label">Miles · SB Half Marathon</div>
+        </div>
+        <div>
+          <div class="run-stat-num">4</div>
+          <div class="run-stat-label">Years running</div>
+        </div>
+        <div>
+          <div class="run-stat-num">∞</div>
+          <div class="run-stat-label">Morning miles</div>
+        </div>
+      </div>
+      <p class="about-section-desc">I started running freshman year after discovering the trails in the Goleta Monarch Preserve. Sophomore year I ran the Santa Barbara Half Marathon, and since then morning runs have become a non-negotiable part of my day.</p>
+      <div class="photo-grid-2" style="max-width: 500px;">
+        <div class="photo-item">
+          <img src="docs/IMG_3163.jpg" alt="Running in the Monarch Butterfly Preserve"/>
+          <p class="photo-caption">Running with Mia in the Monarch Butterfly Preserve</p>
+        </div>
+      </div>
+    </section>
 
-## Running
-
-I love to run and post my runs on Strava. I started running freshman year, when I found the trails in the Goleta Monarch Preserve. From there, I challenged myself to run in the mornings and sophmore year, I ran the Santa Barbara Half Marathon. From then, I have been consistently running as a way to start my day right! I also really enjoy the friends I have been able to make through running.
-
-![Running with my friend Mia in the Monarch Butterfly Preserve](docs/IMG_3163.jpg)
-
+  </div>
+</div>
+```

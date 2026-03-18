@@ -4,6 +4,5 @@ title: "About"
 
 About this site
 
-```{r}
+{r}
 1 + 1
-```

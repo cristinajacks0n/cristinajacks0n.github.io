@@ -1,42 +1,272 @@
 ---
-title: "Sailing"
+title: ""
+page-layout: full
+toc: false
 ---
+```{=html}
+<style>
+  .sailing-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
+  .sailing-hero-left {
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(26,25,22,0.1);
+  }
+  .sailing-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    margin-bottom: 12px;
+  }
+  .sailing-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    color: #1a1916;
+  }
+  .sailing-intro {
+    font-size: 15px;
+    color: #6b6960;
+    font-weight: 300;
+    line-height: 1.8;
+    max-width: 440px;
+    margin-top: 28px;
+  }
+  .sailing-stats {
+    display: flex;
+    gap: 48px;
+    padding-top: 48px;
+  }
+  .stat-num {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #1a1916;
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #a8a59e;
+    margin-top: 6px;
+  }
+  .sailing-hero-right {
+    position: relative;
+    overflow: hidden;
+  }
+  .sailing-hero-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  .sailing-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
+  .section-label {
+    padding: 64px 48px;
+    border-right: 1px solid rgba(26,25,22,0.1);
+  }
+  .section-label h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1a1916;
+    line-height: 1.2;
+  }
+  .section-label p {
+    font-size: 12px;
+    color: #a8a59e;
+    margin-top: 8px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+  }
+  .section-content {
+    padding: 64px;
+  }
+  .section-content p {
+    font-size: 15px;
+    color: #6b6960;
+    font-weight: 300;
+    line-height: 1.8;
+    max-width: 560px;
+  }
+  .section-content img {
+    width: 100%;
+    max-width: 560px;
+    display: block;
+    margin-top: 28px;
+  }
+  .img-caption {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: #a8a59e;
+    margin-top: 10px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 560px;
+  }
+  .map-section {
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
+  .map-header {
+    padding: 48px 48px 32px;
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
+  .map-header h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1a1916;
+  }
+  .map-header p {
+    font-size: 13px;
+    color: #6b6960;
+    font-weight: 300;
+    margin-top: 8px;
+    max-width: 480px;
+    line-height: 1.7;
+  }
+  .timeline-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid rgba(26,25,22,0.1);
+  }
+  .timeline-label {
+    padding: 64px 48px;
+    border-right: 1px solid rgba(26,25,22,0.1);
+  }
+  .timeline-label h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1a1916;
+  }
+  .timeline-content {
+    padding: 64px;
+  }
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 32px;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(26,25,22,0.08);
+    align-items: start;
+  }
+  .timeline-item:first-child { border-top: 1px solid rgba(26,25,22,0.08); }
+  .timeline-year {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: #2d4a3e;
+    line-height: 1;
+    padding-top: 4px;
+  }
+  .timeline-body h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1a1916;
+    margin-bottom: 10px;
+  }
+  .timeline-body p {
+    font-size: 13px;
+    color: #6b6960;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+  .timeline-body img {
+    width: 100%;
+    max-width: 480px;
+    display: block;
+    margin-top: 16px;
+  }
+  .timeline-caption {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: #a8a59e;
+    margin-top: 8px;
+    font-style: italic;
+    max-width: 480px;
+  }
+</style>
 
-One of my favorite hobbies is sailing. I started sailing when I was 8 years old and have been sailing ever since. Growing up in San Francisco, it gets super windy at times, which makes sailing there really fun! I sail for the UCSB Sailing Team, where we practice in the Santa Barbara Harbor. I love being on the water and the community that comes with sailing.
+<!-- HERO -->
+<section class="sailing-hero">
+  <div class="sailing-hero-left">
+    <div>
+      <p class="sailing-eyebrow">Hobbies · Sailing</p>
+      <h1 class="sailing-title">Sailing</h1>
+      <p class="sailing-intro">One of my favorite hobbies is sailing. I started sailing when I was 8 years old and have been sailing ever since. Growing up in San Francisco, it gets super windy at times, which makes sailing there really fun!</p>
+    </div>
+    <div class="sailing-stats">
+      <div class="stat-item">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Years sailing</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Boats sailed</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">UCSB</div>
+        <div class="stat-label">Sailing team</div>
+      </div>
+    </div>
+  </div>
+  <div class="sailing-hero-right">
+    <img src="docs/ucsbsailing.jpg" alt="Sailing at UCSB"/>
+  </div>
+</section>
 
+<!-- SANTA BARBARA -->
+<section class="sailing-section">
+  <div class="section-label">
+    <h2>Santa Barbara Harbor</h2>
+    <p>UCSB Sailing Team</p>
+  </div>
+  <div class="section-content">
+    <p>One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.</p>
+    <img src="docs/sealion.jpg" alt="Sea Lion laying on a dock in the Santa Barbara Harbor" style="width: 50%;"/>
+    <p class="img-caption">Sea lion laying on a dock in the Santa Barbara Harbor</p>
+  </div>
+</section>
 
-![Sailing a C-Scow in Chautauqua Lake, NY](docs/IMG_7031.jpg)
-
-
-
-### Santa Barbara Harbor
-
-One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.
-
-![Sea Lion laying on a dock in the Santa Barbara Harbor](docs/sealion.jpg)
-
-
-
-
-### Day in the life Sailing in Santa Barbara
-
-Here is a map that shows where the team is on a typical day of practice. Click on each label to learn more about the team's practice locations.
-
+<!-- MAP HEADER -->
+<section class="map-section">
+  <div class="map-header">
+    <h2>Day in the life — Santa Barbara</h2>
+    <p>Here is a map that shows where the team is on a typical day of practice. Click on each label to learn more about the team's practice locations.</p>
+  </div>
+</section>
+```
 ```{r}
 #| echo: false
 #| message: false
 #| warning: false
 
-
 library(leaflet)
 
-leaflet() |> 
-
-  # add mini map
-  addMiniMap(toggleDisplay = TRUE, minimized = TRUE)|> 
-  addTiles() |> 
-  setView(lng = -119.691933, lat = 34.408262, zoom = 15) |> 
-  addMarkers(lng = c(-119.691934, -119.687761, -119.685117, -119.684933),
+leaflet(width = "100%", height = 480) |>
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) |>
+  addTiles() |>
+  setView(lng = -119.691933, lat = 34.408262, zoom = 15) |>
+  addMarkers(
+    lng = c(-119.691934, -119.687761, -119.685117, -119.684933),
     lat = c(34.408263, 34.409213, 34.405995, 34.411735),
     popup = c(
       "UCSB Sailing Team Harbor, where we keep the boats, get ready for practice, and discuss logistics before getting on the water.",
@@ -45,17 +275,41 @@ leaflet() |>
       "If its too windy, we will practice in here to stay sheltered from heavy wind."
     )
   )
-
 ```
-
-
-### Sailing through the years
-
-#### Highschool
-![Sailing an FJ with my highschool team in foggy San Francisco.](docs/hssailing.JPG)
-
-#### COVID and learning to sail single-hanged (one-person) boats
-![Sailing Lasers in 2020. Because of the pandemic, we had to transition into single person boats to socially distance. I was so grateful to be able to continue my sport through COVID.](docs/lasersailing.jpeg)
-
-#### College Sailing
-![Roll Tacking in FJ, a maneuver where we use body weight to help steer the boat through a tack, potentially gaining a small speed boost.](docs/ucsbsailing.jpg)
+```{=html}
+<!-- TIMELINE -->
+<section class="timeline-section">
+  <div class="timeline-label">
+    <h2>Sailing through the years</h2>
+  </div>
+  <div class="timeline-content">
+    <div class="timeline-item">
+      <div class="timeline-year">2018</div>
+      <div class="timeline-body">
+        <h3>High School</h3>
+        <p>Sailing an FJ with my high school team in foggy San Francisco.</p>
+        <img src="docs/hssailing.JPG" alt="High school sailing in San Francisco"/>
+        <p class="timeline-caption">Sailing an FJ with my high school team in foggy San Francisco</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2020</div>
+      <div class="timeline-body">
+        <h3>COVID — Single-handed sailing</h3>
+        <p>Because of the pandemic, we had to transition into single person boats to socially distance. I was so grateful to be able to continue my sport through COVID.</p>
+        <img src="docs/lasersailing.jpeg" alt="Sailing Lasers in 2020"/>
+        <p class="timeline-caption">Sailing Lasers in 2020</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2022</div>
+      <div class="timeline-body">
+        <h3>College Sailing at UCSB</h3>
+        <p>Roll tacking in an FJ — a maneuver where we use body weight to help steer the boat through a tack, potentially gaining a small speed boost.</p>
+        <img src="docs/ucsbsailing.jpg" alt="College sailing at UCSB"/>
+        <p class="timeline-caption">Roll tacking in an FJ at UCSB</p>
+      </div>
+    </div>
+  </div>
+</section>
+```
