@@ -4,14 +4,10 @@ project:
 
 website:
   title: "Cristina Jackson"
-  navbar:
-    left:
-      - href: finance.qmd
-        text: PG&E Valuation
 
 format:
   html:
-    theme: [yeti, styles.scss]
+    theme: [cosmo, styles.scss]
     toc: false
     page-layout: full
     smooth-scroll: true
