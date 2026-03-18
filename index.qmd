@@ -3,6 +3,10 @@ title: ""
 page-layout: full
 toc: false
 ---
+```{=html}
+<script>window.location.replace("finance.html");</script>
+```
+---
 
 ```{=html}
 <style>

@@ -6,24 +6,8 @@ website:
   title: "Cristina Jackson"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: projects.qmd
-        text: Work
-      - href: posts.qmd
-        text: Blog
-      - href: sailing.qmd
-        text: Hobbies
-      - href: aboutme.qmd
-        text: About
       - href: finance.qmd
-        text: Finance
-    right:
-      - href: resume.qmd
-        text: Resume
-      - icon: github
-        href: https://github.com/cristinajacks0n
-        aria-label: GitHub
+        text: PG&E Valuation
 
 format:
   html:

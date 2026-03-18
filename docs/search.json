@@ -1,80 +1,10 @@
 [
   {
-    "objectID": "interests.html",
-    "href": "interests.html",
-    "title": "Interests",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
     "section": "",
-    "text": "When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and have a great appreciation for nature and the world around me."
-  },
-  {
-    "objectID": "interests.html#running",
-    "href": "interests.html#running",
-    "title": "Interests",
-    "section": "Running",
-    "text": "Running\nI love to run and post my runs on Strava. I started running freshman year, when I found the trails in the Goleta Monarch Preserve. From there, I challenged myself to run in the mornings and sophmore year, I ran the Santa Barbara Half Marathon. From then, I have been consistently running as a way to start my day right! I also really enjoy the friends I have been able to make through running.\n\n\n\nRunning with my friend Mia in the Monarch Butterfly Preserve"
-  },
-  {
-    "objectID": "interests.html#sailing",
-    "href": "interests.html#sailing",
-    "title": "Interests",
-    "section": "Sailing",
-    "text": "Sailing\nI sail for the UCSB Sailing Team. I started sailing when I was 8 years old and have been doing it ever since. One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.\n\n\n\nSailing a C-Scow in Chautauqua Lake, NY"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CristinaJackson",
-    "section": "",
-    "text": "CristinaJackson\n    \n      \n      Bachelor of Arts (BA) in Economics and Environmental Studies, University of California, Santa Barbara (Expected Graduation: June 2026)\n    \n  \n\n  \n  \n\n    \n      About me\n      Hi. I'm Cristina. I am intersted in financial management, sustainable energy, and learning to code. I will be graduating this Spring. I enjoy sailing, running, and vibe-coding in my free time.\n    \n\n    \n      Currently\n      \n        \n        Working on This website \n      \n      \n        \n        Studying Financial Management, Environmental Law, and Personnel and Behavioral Economics. \n      \n      \n        \n        Reading Little Fires Everywhere"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Cristina Jackson",
-    "section": "Education",
-    "text": "Education\nBachelor of Arts (BA) in Economics and Environmental Studies\nUniversity of California, Santa Barbara (Expected Graduation: June 2026)"
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "cristinajacks0n.github.io",
-    "section": "Skills",
-    "text": "Skills\n\nR Programming (yes!)"
-  },
-  {
-    "objectID": "aboutme.html",
-    "href": "aboutme.html",
-    "title": "BeyondtheResume",
-    "section": "",
-    "text": "Cristina Jackson\n      BeyondtheResume\n      Photography, dogs, running, and everything in between — the side of me that doesn't fit on a CV.\n    \n    \n      Photography\n      Ollie & Buster\n      Running\n    \n  \n\n  \n  \n\n    \n    \n      Photography\n      I love to travel, explore new places, and take photos of nature. This year I visited Laguna Beach with my sister and mom and caught an incredible sunset, and explored Joshua Tree for the first time — the rock formations are unlike anything I've seen.\n      \n        \n          \n          Sunset in Laguna Beach\n        \n        \n          \n          Joshua Tree National Park\n        \n      \n    \n\n    \n    \n      Ollie & Buster\n      I have two dogs, Ollie and Buster. Ollie loves long runs on the beach. Buster's idea of a perfect outing is a walk to Starbucks and a pup cup.\n      \n        \n          \n          Ollie\n        \n        \n          \n          Buster\n        \n        \n          \n          Ollie, Bodie, and Mia\n        \n      \n    \n\n    \n    \n      Running\n      \n        \n          13.1\n          Miles · SB Half Marathon\n        \n        \n          4\n          Years running\n        \n        \n          ∞\n          Morning miles\n        \n      \n      I started running freshman year after discovering the trails in the Goleta Monarch Preserve. Sophomore year I ran the Santa Barbara Half Marathon, and since then morning runs have become a non-negotiable part of my day.\n      \n        \n          \n          Running with Mia in the Monarch Butterfly Preserve"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "My CV"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Selected work\n  Projects\n  A collection of work from my time at UCSB — spanning R, data analysis, economics, and environmental studies.\n\n\n\n\n\n\n\n\n\n\n\n\nEconomics 194S: Group Studies\n\n\n\nR\n\n\n\nEcon 194S course with Professor Bree Lang\n\n\n\n\n\n\n\n\n\nEconomics 199RA: DataHack\n\n\n\nR\n\n\n\nDataHack course with Camilo Abbate Granada and Jonah Danziger\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html#economics-199ra-datahack",
-    "href": "projects.html#economics-199ra-datahack",
-    "title": "Projects",
-    "section": "Economics 199RA: DataHack",
-    "text": "Economics 199RA: DataHack\nIn my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked with a team to analyze data on Medicare in California. This project involved cleaning and analyzing large datasets, visualizing our findings, and presenting our results to the class. Our task was to provide evidence for the following question: What issue should be prioritized by California’s policy makers and why?\n\nFinancial Pressure Across Medi-Cal Healthcare Plans"
-  },
-  {
-    "objectID": "projects.html#economics-194s-group-studies",
-    "href": "projects.html#economics-194s-group-studies",
-    "title": "Projects",
-    "section": "Economics 194S: Group Studies",
-    "text": "Economics 194S: Group Studies\nIn my Econ 194S course with Professor Bree Lang, I conducted research on the differences in education across California. This project involved analyzing data on educational attainment, income levels, and other socioeconomic factors to understand how these variables interact and affect educational outcomes. I used R to analyze the data and create visualizations to support my findings. This course taught me to identify and evaluate different empirical research methods in economics, develop a research proposal, apply R programming skills to analyze and visualize results, and to ceate professional research documents using Quarto.\n\nThe Effect of Free Child Care on New Mexico Families"
+    "text": "Economics 194S: Group Studies\n\n\n\nR\n\n\n\nEcon 194S course with Professor Bree Lang\n\n\n\nCristina\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomics 199RA: DataHack\n\n\n\nR\n\n\n\nDataHack course with Camilo Abbate Granada and Jonah Danziger\n\n\n\nCristina\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -84,46 +14,11 @@
     "text": "About this site\n{r} 1 + 1"
   },
   {
-    "objectID": "interests.html#interactive-figure",
-    "href": "interests.html#interactive-figure",
-    "title": "Interests",
-    "section": "Interactive Figure",
-    "text": "Interactive Figure"
-  },
-  {
-    "objectID": "interests.html#day-in-the-life-sailing-in-santa-barbara",
-    "href": "interests.html#day-in-the-life-sailing-in-santa-barbara",
-    "title": "Interests",
-    "section": "Day in the life Sailing in Santa Barbara",
-    "text": "Day in the life Sailing in Santa Barbara\nHere is a map that shows where the team is on a typical day of practice. Click on each label to learn more about the team’s practice locations."
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "cristinajacks0n.github.io",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Sunset walk to Devs Beach in Isla Vista\n\n\nHi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. Over this past quarter, I have been learning how to code with R. I have really enjoyed learning. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love the outdoors and one of my favorite things about Santa Barbara is how amazing the geography is, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers and I also currently work in administration at a doctors office in Santa Barbara."
-  },
-  {
-    "objectID": "aboutme.html#photography",
-    "href": "aboutme.html#photography",
-    "title": "About Me",
-    "section": "",
-    "text": "I love to travel, explore new places, and take cool pictures of nature. This year, I went to Laguna Beach with my sister and mom and saw the most amazing sunset. I also went to Joshua Tree for the first time, and thought the rock formations were very unique. Here are some photos from my adventures.\n\n\n\nSunset in Laguna Beach\n\n\n\n\n\nRocks in Joshua Tree National Park"
-  },
-  {
-    "objectID": "aboutme.html#pets",
-    "href": "aboutme.html#pets",
-    "title": "About Me",
-    "section": "Pets",
-    "text": "Pets\nI have two dogs, Ollie and Buster. They are the cutest. Ollie, I like to take on long runs on the beach. Buster loves to go on a walk to Starbucks with me and get a pup cup.\n\n\n\nOllie\n\n\n\n\n\nBuster\n\n\n\n\n\nOllie and his friend Bodie and my friend Mia!"
-  },
-  {
-    "objectID": "index.html#home-page",
-    "href": "index.html#home-page",
-    "title": "Cristina Jackson",
-    "section": "",
-    "text": "Sunset walk to Devs Beach in Isla Vista\n\n\nHi! I am Cristina Jackson, an undergraduate student at UC Santa Barbara studying Economics and Environmental Studies. This past quarter, I have been learning how to code with R Studio, which I have really enjoyed because of the creativity and problem solving it allows for. In both my economics and environmental studies courses this quarter, I have used R Studio to analyze data and present my findings with teachers, classmates, and even judges. When not in school, you can find me running along the bluffs by Devereux Beach or sailing with my team in the Santa Barbara Harbor! I love being outdoors and one of my favorite things about Santa Barbara is how there are so many activities to do outside, from getting to spend a day on the beach or drive up to the mountains for a sunset. During the summers, I coach sailing at the Chautauqua sailing center, a role I have held for the past few summers. I also currently work in administration with Doss MD/Artistic Eyes, an oculoplastic surgeon’s office in downtown Santa Barbara."
+    "text": "Selected work\n  Projects\n  A collection of work from my time at UCSB — spanning R, data analysis, economics, and environmental studies.\n\n\n\n\n\n\n\n\n\n\n\n\nEconomics 194S: Group Studies\n\n\n\nR\n\n\n\nEcon 194S course with Professor Bree Lang\n\n\n\n\n\n\n\n\n\nEconomics 199RA: DataHack\n\n\n\nR\n\n\n\nDataHack course with Camilo Abbate Granada and Jonah Danziger\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sailing.html",
@@ -131,62 +26,6 @@
     "title": "Sailing",
     "section": "",
     "text": "Hobbies · Sailing\n      Sailing\n      One of my favorite hobbies is sailing. I started sailing when I was 8 years old and have been sailing ever since. Growing up in San Francisco, it gets super windy at times, which makes sailing there really fun!\n    \n    \n      \n        15+\n        Years sailing\n      \n      \n        3\n        Boats sailed\n      \n      \n        UCSB\n        Sailing team\n      \n    \n  \n  \n    \n  \n\n\n\n\n  \n    Santa Barbara Harbor\n    UCSB Sailing Team\n  \n  \n    One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.\n    \n    Sea lion laying on a dock in the Santa Barbara Harbor\n  \n\n\n\n\n  \n    Day in the life — Santa Barbara\n    Here is a map that shows where the team is on a typical day of practice. Click on each label to learn more about the team's practice locations.\n  \n\n\n\n\n\n\n\n\n\n  \n    Sailing through the years\n  \n  \n    \n      2018\n      \n        High School\n        Sailing an FJ with my high school team in foggy San Francisco.\n        \n        Sailing an FJ with my high school team in foggy San Francisco\n      \n    \n    \n      2020\n      \n        COVID — Single-handed sailing\n        Because of the pandemic, we had to transition into single person boats to socially distance. I was so grateful to be able to continue my sport through COVID.\n        \n        Sailing Lasers in 2020\n      \n    \n    \n      2022\n      \n        College Sailing at UCSB\n        Roll tacking in an FJ — a maneuver where we use body weight to help steer the boat through a tack, potentially gaining a small speed boost.\n        \n        Roll tacking in an FJ at UCSB"
-  },
-  {
-    "objectID": "sailing.html#sailing",
-    "href": "sailing.html#sailing",
-    "title": "Sailing",
-    "section": "Sailing",
-    "text": "Sailing\nI sail for the UCSB Sailing Team. I started sailing when I was 8 years old and have been doing it ever since. One of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.\n\n\n\nSailing a C-Scow in Chautauqua Lake, NY"
-  },
-  {
-    "objectID": "sailing.html#day-in-the-life-sailing-in-santa-barbara",
-    "href": "sailing.html#day-in-the-life-sailing-in-santa-barbara",
-    "title": "Sailing",
-    "section": "Day in the life Sailing in Santa Barbara",
-    "text": "Day in the life Sailing in Santa Barbara\nHere is a map that shows where the team is on a typical day of practice. Click on each label to learn more about the team’s practice locations."
-  },
-  {
-    "objectID": "aboutme.html#running",
-    "href": "aboutme.html#running",
-    "title": "About Me",
-    "section": "Running",
-    "text": "Running\nI love to run and post my runs on Strava. I started running freshman year, when I found the trails in the Goleta Monarch Preserve. From there, I challenged myself to run in the mornings and sophmore year, I ran the Santa Barbara Half Marathon. From then, I have been consistently running as a way to start my day right! I also really enjoy the friends I have been able to make through running.\n\n\n\nRunning with my friend Mia in the Monarch Butterfly Preserve"
-  },
-  {
-    "objectID": "sailing.html#ucsb-sailing-team",
-    "href": "sailing.html#ucsb-sailing-team",
-    "title": "Sailing",
-    "section": "UCSB Sailing Team",
-    "text": "UCSB Sailing Team\nOne of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.\n\n\n\nSea Lion laying on a dock in the Santa Barbara Harbor"
-  },
-  {
-    "objectID": "sailing.html#sailing-yhrough-the-years",
-    "href": "sailing.html#sailing-yhrough-the-years",
-    "title": "Sailing",
-    "section": "Sailing yhrough the years",
-    "text": "Sailing yhrough the years\n\nHighschool\n\n\n\nSailing an FJ with my highschool team in foggy San Francisco\n\n\n\n\nCOVID and learning to sail single-hanged (one-person) boats\n\n\n\nSailing Lasers during COVID.\n\n\n\n\nCollege Sailing\n\n\n\nRoll Tacking in FJ, a maneuver where we use body weight to help steer the boat through a tack, potentially gaining a small speed boost"
-  },
-  {
-    "objectID": "sailing.html#santa-barbara-harbor",
-    "href": "sailing.html#santa-barbara-harbor",
-    "title": "Sailing",
-    "section": "Santa Barbara Harbor",
-    "text": "Santa Barbara Harbor\nOne of the things I love most about sailing in Santa Barbara is how amazing the wildlife is. I have seen dolphins, sea lions, and even whales while out on the water. The sunsets while sailing are also incredible. I love the sport and the community that comes with it.\n\n\n\nSea Lion laying on a dock in the Santa Barbara Harbor"
-  },
-  {
-    "objectID": "sailing.html#sailing-through-the-years",
-    "href": "sailing.html#sailing-through-the-years",
-    "title": "Sailing",
-    "section": "Sailing through the years",
-    "text": "Sailing through the years\n\nHighschool\n\n\n\nSailing an FJ with my highschool team in foggy San Francisco\n\n\n\n\nCOVID and learning to sail single-hanged (one-person) boats\n\n\n\nSailing Lasers during COVID.\n\n\n\n\nCollege Sailing\n\n\n\nRoll Tacking in FJ, a maneuver where we use body weight to help steer the boat through a tack, potentially gaining a small speed boost"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "My Blog",
-    "section": "",
-    "text": "Economics 194S: Group Studies\n\n\n\nR\n\n\n\nEcon 194S course with Professor Bree Lang\n\n\n\nCristina\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomics 199RA: DataHack\n\n\n\nR\n\n\n\nDataHack course with Camilo Abbate Granada and Jonah Danziger\n\n\n\nCristina\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Economics 194S: Group Studies/index.html",
@@ -203,6 +42,13 @@
     "text": "In my Econ 194S course with Professor Bree Lang, I conducted research on the differences in education across California. This project involved analyzing data on educational attainment, income levels, and other socioeconomic factors to understand how these variables interact and affect educational outcomes. I used R to analyze the data and create visualizations to support my findings. This course taught me to identify and evaluate different empirical research methods in economics, develop a research proposal, apply R programming skills to analyze and visualize results, and to ceate professional research documents using Quarto."
   },
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "My CV"
+  },
+  {
     "objectID": "posts/Economics 199RA: DataHack/index.html",
     "href": "posts/Economics 199RA: DataHack/index.html",
     "title": "Economics 199RA: DataHack",
@@ -215,6 +61,20 @@
     "title": "Economics 199RA: DataHack",
     "section": "",
     "text": "In my DataHack course with Camilo Abbate Granada and Jonah Danziger, I worked with a team to analyze data on Medicare in California. This project involved cleaning and analyzing large datasets, visualizing our findings, and presenting our results to the class. Our task was to provide evidence for the following question: What issue should be prioritized by California’s policy makers and why?"
+  },
+  {
+    "objectID": "aboutme.html",
+    "href": "aboutme.html",
+    "title": "BeyondtheResume",
+    "section": "",
+    "text": "Cristina Jackson\n      BeyondtheResume\n      Photography, dogs, running, and everything in between — the side of me that doesn't fit on a CV.\n    \n    \n      Photography\n      Ollie & Buster\n      Running\n    \n  \n\n  \n  \n\n    \n    \n      Photography\n      I love to travel, explore new places, and take photos of nature. This year I visited Laguna Beach with my sister and mom and caught an incredible sunset, and explored Joshua Tree for the first time — the rock formations are unlike anything I've seen.\n      \n        \n          \n          Sunset in Laguna Beach\n        \n        \n          \n          Joshua Tree National Park\n        \n      \n    \n\n    \n    \n      Ollie & Buster\n      I have two dogs, Ollie and Buster. Ollie loves long runs on the beach. Buster's idea of a perfect outing is a walk to Starbucks and a pup cup.\n      \n        \n          \n          Ollie\n        \n        \n          \n          Buster\n        \n        \n          \n          Ollie, Bodie, and Mia\n        \n      \n    \n\n    \n    \n      Running\n      \n        \n          13.1\n          Miles · SB Half Marathon\n        \n        \n          4\n          Years running\n        \n        \n          ∞\n          Morning miles\n        \n      \n      I started running freshman year after discovering the trails in the Goleta Monarch Preserve. Sophomore year I ran the Santa Barbara Half Marathon, and since then morning runs have become a non-negotiable part of my day.\n      \n        \n          \n          Running with Mia in the Monarch Butterfly Preserve"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CristinaJackson",
+    "section": "",
+    "text": "CristinaJackson\n    \n      \n      Bachelor of Arts (BA) in Economics and Environmental Studies, University of California, Santa Barbara (Expected Graduation: June 2026)\n    \n  \n\n  \n  \n\n    \n      About me\n      Hi. I'm Cristina. I am intersted in financial management, sustainable energy, and learning to code. I will be graduating this Spring. I enjoy sailing, running, and vibe-coding in my free time.\n    \n\n    \n      Currently\n      \n        \n        Working on This website \n      \n      \n        \n        Studying Financial Management, Environmental Law, and Personnel and Behavioral Economics. \n      \n      \n        \n        Reading Little Fires Everywhere"
   },
   {
     "objectID": "finance.html",
